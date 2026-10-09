@@ -1,0 +1,14 @@
+# P001 — quantitative internal-witness delta-system extraction
+
+**Status:** PROPOSED, first-paper novel status UNCERTAIN pending source-first independent audit. **Source:** Janzer–Jin–Sudakov–Wu, *Sunflowers and Ramsey Problems for Restricted Intersections*, Combinatorica 46 (2026), Theorem 1.7 and §6, DOI:10.1007/s00493-026-00222-1.
+
+**Exact requested statement (source §6):** For every k≥1 (nontrivial k≥2) there exists c_k>0 such that for every m≥2, n≥k and family F⊆([n] choose k), there exists F'⊆F with |F'|≥c_k m^(-k)|F| and for every distinct A,B∈F' there exist m distinct members S_1,…,S_m∈**F'** with S_i∩S_j=A∩B for all i≠j. (Integer rounding interpret literally.) The subtlety is the sunflower witnesses must lie **inside F'**.
+
+**Nearest prior art:** Füredi delta-system lemma (cited as Theorem 1.5 in Janzer) has internal witnesses but tiny ≈(2^k k m)^(-2^k) factor and extra structure. Janzer Theorem 1.7 improves to ≥(25·2^k k m)^(-k) but only guarantees sunflowers in ambient F, not F'. Janzer Theorem 1.6 obstructs other stronger structural attributes. Janzer §6 explicitly states this desideratum; unlike usual no-hit, this is affirmative 2026 source-posed gap. Recheck competing papers after August 2026, especially fixed-k results, and recent Ge–Wang–Xu–Zhao bounded-VC theorem.
+
+**Why meaningful:** bridging internal vs ambient witnesses potentially improves recursive embeddings in delta-system methods and quantitative hypergraph intersection theory. Does NOT imply full sunflower conjecture. Structural / colour-certificate and matching/vertex-cover arguments from Janzer §2 and §4 are starting mechanisms. A proof of exactly the source-posed question could justify an independent contribution; a k=3 improvement may or may not, depending on closest theorems and significance.
+
+**First bounded mathematical obligation:** P001-S000 must be **repository bootstrap and open-status revalidation**, not new theorem proof. Read primary article Theorems 1.5–1.7, proofs §2/§4, §6, 2026 citations. Freeze k,m quantifiers, enumerate nearest 3–5 published results. Test symbolic examples only AFTER revalidation gate. Identify whether k=2 or k=3 cases are already known before adopting a restricted goal. Check Lean/mathlib set-system / sunflower definitions and independent proof-assistant work, without automatically committing to full formalisation.
+
+**Risks and pivots:** If full problem solved, reuse proof and seek actual unsolved structural/constructive question or valuable formalisation; if too hard, isolate a genuinely novel fixed-parameter theorem; if fully formalised/known, seek next frontier; if disproved, record counterexample and strongest corrected law; if no meaningful result, park P001 without fake publication. Separate authorisation required to create child repository. No external submissions.
+

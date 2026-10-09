@@ -1,0 +1,3 @@
+# Headline: Erdős–Rado sunflower conjecture
+
+Given fixed r≥3, does ∃C_r<∞ such that for all k≥1 and all finite k-uniform set families F of cardinality >C_r^k, F contains r distinct members with all pairwise intersections equal? **OPEN from current 2026 survey evidence**, not independently exhaustively audited. Rao (2026) DOI 10.1112/jlms.70380; Janzer et al. (2026) DOI 10.1007/s00493-026-00222-1. Immediate boundary: ALWZ logarithmic base, 2026 bounded VC-dimension family, 2026 internally-witnessed question of Janzer §6. Formalisation should represent finite sets, family distinctness and exactly r petals.

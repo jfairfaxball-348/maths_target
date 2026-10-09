@@ -1,0 +1,42 @@
+{
+  "seeds": [
+    "SUN",
+    "MDS",
+    "ROT",
+    "UNC"
+  ],
+  "semifinals": [
+    {
+      "a": "SUN",
+      "b": "UNC",
+      "winner": "SUN"
+    },
+    {
+      "a": "MDS",
+      "b": "ROT",
+      "winner": "MDS"
+    }
+  ],
+  "championship": {
+    "a": "SUN",
+    "b": "MDS",
+    "winner": "SUN"
+  },
+  "third_place": {
+    "a": "UNC",
+    "b": "ROT",
+    "winner": "ROT"
+  },
+  "ranking": [
+    "SUN",
+    "MDS",
+    "ROT",
+    "UNC",
+    "KSET",
+    "CH",
+    "LRC",
+    "MM",
+    "BF",
+    "TWIN"
+  ]
+}

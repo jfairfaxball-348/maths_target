@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "repo": "jfairfaxball-348/maths_target",
+  "session_completed": "S000",
+  "stage": "PROGRAMME_BOOTSTRAPPED_NO_CHILD",
+  "headline_id": "SUN",
+  "headline_open_status": "STRONG_EVIDENCE_OPEN",
+  "champion": "Erdős–Rado Sunflower Conjecture",
+  "parent_repo_name_temporary": true,
+  "proposed_rename": "sunflower-structures-programme",
+  "active_paper_id": null,
+  "first_paper_milestone": "P001",
+  "child_repo_created": false,
+  "first_paper_authorized": false,
+  "mathematical_result_count": 0,
+  "formal_verifications": 0,
+  "publications": 0,
+  "source_limitations": [
+    "P001 exact open status still requires independently revalidated audit",
+    "Incoming S000 prompt synopsis archived, not verbatim"
+  ],
+  "next_programme_session": "S001",
+  "date": "2026-10-09"
+}

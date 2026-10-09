@@ -1,0 +1,421 @@
+[
+  {
+    "id": "SUN",
+    "name": "Erdős–Rado Sunflower Conjecture",
+    "area": "extremal set theory",
+    "scores": [
+      14,
+      14,
+      18,
+      11,
+      8,
+      9,
+      4,
+      4
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "For each r≥3, ∃C_r so every k-uniform set family of size >C_r^k contains an r-sunflower.",
+    "first": "For all k,m≥2, every k-uniform family F contains F' with |F'|≥c_k m^(-k)|F| and each intersection of two distinct F' members is a kernel of an m-petal sunflower wholly within F'.",
+    "source": [
+      "SUN",
+      "SUN2",
+      "SUN3"
+    ],
+    "risk": "The 2026 question may be almost as hard as the target; k=3 must be separately audited.",
+    "applications": "B: restricted-intersection bounds and quantum shadow tomography via published delta-system tools; not deployment-ready.",
+    "ladder": [
+      "Resolve or improve the internal-witness quantitative delta-system extraction question of Janzer et al. (2026 §6).",
+      "Prove sharp extraction/obstruction structure for fixed k or structured hypergraphs.",
+      "Obtain single-exponential quantitative internal-kernel results for an infinite parameter family.",
+      "Develop new robust sunflower extraction that removes a major log(k) loss for broad families.",
+      "Prove the unrestricted Erdős–Rado sunflower conjecture."
+    ],
+    "score": 82,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "ROT",
+    "name": "Rota's Basis Conjecture",
+    "area": "matroids",
+    "scores": [
+      14,
+      14,
+      18,
+      9,
+      7,
+      9,
+      4,
+      4
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "Every n labeled rank-n matroid bases can be rearranged into n disjoint transversal bases.",
+    "first": "Unrestricted rank-five transversal basis decomposition for every rank-five matroid, with labeled occurrences.",
+    "source": [
+      "ROT"
+    ],
+    "risk": "Rank-five open-status not directly established; earlier formalisation competition exists.",
+    "applications": "C: constructive base packing may inform matroid algorithms and scheduling, not a direct consequence of existence.",
+    "ladder": [
+      "Audit then resolve unrestricted rank-five case.",
+      "Derive novel exchange/obstruction reduction for bounded ranks.",
+      "Prove a uniform infinite family of matroid classes.",
+      "Close exact packing–covering gap for a substantial matroid family.",
+      "Prove Rota's Basis Conjecture in all ranks."
+    ],
+    "score": 79,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "MDS",
+    "name": "MDS Conjecture for Linear Codes",
+    "area": "coding theory",
+    "scores": [
+      14,
+      12,
+      17,
+      13,
+      8,
+      7,
+      3,
+      3
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "For nontrivial linear [N,k] MDS codes over F_q, N≤q+1 except the standard even-q k=3 or dual exceptions with N≤q+2.",
+    "first": "Find a new provable residual dimension range for composite q beyond the bounds claimed by Fan (2026), after auditing that preprint.",
+    "source": [
+      "MDS",
+      "MDS2"
+    ],
+    "risk": "2026 dramatic dimension-range preprint must be checked; algebraic competition intense.",
+    "applications": "A: MDS codes support error correction and distributed storage; longer hypothetical parameters do not directly improve deployed codes.",
+    "ladder": [
+      "Audit and enlarge a residual dimension/field regime.",
+      "Classify critical arcs or determinant obstructions.",
+      "Prove a new infinite extension-field range.",
+      "Combine obstruction theories near the remaining middle dimensions.",
+      "Prove the full linear MDS conjecture."
+    ],
+    "score": 77,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "KSET",
+    "name": "Planar k-set Extremal Problem",
+    "area": "computational geometry",
+    "scores": [
+      12,
+      13,
+      15,
+      12,
+      8,
+      8,
+      3,
+      4
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "Determine tight asymptotic maximum of k-sets of n planar points in general position.",
+    "first": "Improve a published bound in a precisely frozen nontrivial regime of k and n; exact improvement not yet specified.",
+    "source": [
+      "KSET",
+      "KSET2"
+    ],
+    "risk": "No independently checked 2025–26 sharp comparator; proposed first-paper target not frozen.",
+    "applications": "B: complexity analysis of levels and geometric algorithms; not an automatic improvement to deployed software.",
+    "ladder": [
+      "Isolate an unsolved restricted k-level incidence bound.",
+      "Derive structural crossing/charging lemma.",
+      "Extend to a growing k-regime or pseudoline arrangements.",
+      "Narrow exponent gap between upper and lower k-set bounds.",
+      "Resolve sharp planar k-set extremal order."
+    ],
+    "score": 75,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "UNC",
+    "name": "Frankl's Union-Closed Sets Conjecture",
+    "area": "extremal set theory / information theory",
+    "scores": [
+      14,
+      15,
+      17,
+      7,
+      5,
+      9,
+      4,
+      3
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "Every nontrivial finite union-closed family has an element occurring in at least half of its members.",
+    "first": "Prove a new 1/2-frequency result for a structurally defined non-subsumed family of Horn Boolean systems.",
+    "source": [
+      "UNC",
+      "UNC2"
+    ],
+    "risk": "Exact Horn subclass has not been frozen and may be subsumed; latest October 2026 entropy threshold is moving.",
+    "applications": "B: Horn Boolean functions and entropy inequalities; specific operational gains speculative.",
+    "ladder": [
+      "Establish a substantive new restricted-class half-frequency theorem.",
+      "Classify minimal counterexample structural certificates.",
+      "Unify tractable Horn/semilattice subclasses.",
+      "Find beyond-entropy global structural decomposition.",
+      "Prove Frankl's conjecture."
+    ],
+    "score": 74,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "CH",
+    "name": "Caccetta–Häggkvist Directed Girth Conjecture",
+    "area": "directed graphs",
+    "scores": [
+      14,
+      12,
+      14,
+      8,
+      6,
+      8,
+      4,
+      4
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "A simple n-vertex digraph of minimum outdegree ≥r has directed girth at most ceil(n/r).",
+    "first": "Extend an explicitly sourced small-independence theorem to a larger exact regime without subsumption.",
+    "source": [
+      "CH",
+      "CH2"
+    ],
+    "risk": "2019 result not a current status audit; much recent graph activity unexamined.",
+    "applications": "C: directed network feedback-cycle guarantees, no certified engineering performance.",
+    "ladder": [
+      "Prove new expansion/girth regime.",
+      "Develop short-cycle neighborhood certificate.",
+      "Generalise to a natural infinite digraph class.",
+      "Resolve r=n/3 or another major intermediate frontier.",
+      "Prove full Caccetta–Häggkvist."
+    ],
+    "score": 70,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "LRC",
+    "name": "Lonely Runner Conjecture",
+    "area": "Diophantine approximation",
+    "scores": [
+      13,
+      12,
+      16,
+      6,
+      7,
+      9,
+      4,
+      3
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "For any k positive integer velocities, ∃t with all ||t u_i||≥1/(k+1).",
+    "first": "Certify or prove the 14-runner case (k=13) after auditing 2026 certificates and any subsequent claims.",
+    "source": [
+      "LRC"
+    ],
+    "risk": "April/September 2026 preprint claims up to 13 runners, so prior smaller targets are superseded.",
+    "applications": "C: periodic scheduling and simultaneous approximation analogies; no demonstrated transfer.",
+    "ladder": [
+      "Resolve or reduce the next k=13 case.",
+      "Develop new exact minimal-counterexample sieves.",
+      "Prove infinitely many structured velocity families.",
+      "Obtain an effective uniform-in-k lower separation law.",
+      "Prove the Lonely Runner Conjecture."
+    ],
+    "score": 70,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "MM",
+    "name": "Matrix Multiplication Exponent 2",
+    "area": "algebraic complexity",
+    "scores": [
+      15,
+      6,
+      12,
+      15,
+      10,
+      8,
+      3,
+      1
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "Prove the exponent ω of square matrix multiplication equals 2.",
+    "first": "Prove a new rigorous optimization/certificate inequality improving an explicitly current tensor-method bound, without duplicate AlphaEvolve output.",
+    "source": [
+      "MM",
+      "MM2"
+    ],
+    "risk": "2026 industrial AI competition and sophisticated computational optimization make accessible novel improvements unlikely.",
+    "applications": "B: genuine algorithmic complexity implications; weak direct practical crossover for huge tensor constructions.",
+    "ladder": [
+      "Novel independently checked optimization inequality.",
+      "New certified tensor degeneration/laser-method obstruction.",
+      "Family-wide rectangular multiplication improvement.",
+      "Break a substantive barrier in arithmetic tensor methods.",
+      "Establish ω=2."
+    ],
+    "score": 70,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "BF",
+    "name": "Beck–Fiala Discrepancy Conjecture",
+    "area": "discrepancy/optimisation",
+    "scores": [
+      14,
+      3,
+      11,
+      15,
+      9,
+      7,
+      0,
+      1
+    ],
+    "status": "MATERIALLY_SUPERSEDED",
+    "headline": "Sparse incidence matrix columns of support ≤t admit ±1 signing with row discrepancy O(sqrt(t)).",
+    "first": "Independent formal/mathematical verification of Guo–Fang–Lu's claimed 2026 constant-bound proof, not an original proof of the conjecture.",
+    "source": [
+      "BF",
+      "BF2"
+    ],
+    "risk": "September 2026 arXiv preprint explicitly claims resolution; cannot advertise original theorem opportunity.",
+    "applications": "B: balancing, rounding, sparse optimisation; application bounds do not imply practical software.",
+    "ladder": [
+      "Audit claimed resolution and formal trust assumptions.",
+      "Develop reusable formal vector-balancing components.",
+      "Explore constructive algorithmic extraction from an existence proof.",
+      "Prove algorithmic complexity gains not already known.",
+      "Claimed conjecture resolution must be verified, not rediscovered."
+    ],
+    "score": 60,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "TWIN",
+    "name": "Twin Prime Conjecture",
+    "area": "analytic number theory",
+    "scores": [
+      15,
+      5,
+      10,
+      4,
+      3,
+      6,
+      4,
+      3
+    ],
+    "status": "STRONG_EVIDENCE_OPEN",
+    "headline": "There are infinitely many primes p with p+2 also prime.",
+    "first": "Obtain a new unconditional nonroutine sieve result for pair correlations with a precisely stated improvement over published comparators.",
+    "source": [
+      "TWIN",
+      "TWIN2"
+    ],
+    "risk": "Sieve parity obstruction and tiny accessible proof window; weak direct practical value.",
+    "applications": "D: no demonstrated practical value of infinite twin-prime existence.",
+    "ladder": [
+      "Novel unconditional sieve/correlation estimate.",
+      "Extend the estimate to prime-pair families.",
+      "New parity-breaking ingredient for an infinite class.",
+      "Obtain unconditionally arbitrarily small even prime gaps.",
+      "Prove infinitely many twin primes."
+    ],
+    "score": 50,
+    "weights": [
+      15,
+      20,
+      20,
+      15,
+      10,
+      10,
+      5,
+      5
+    ]
+  }
+]

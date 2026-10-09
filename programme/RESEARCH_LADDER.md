@@ -1,0 +1,3 @@
+# Milestone strategy and alternatives
+
+P001 internal-kernel quantitative extraction; P002 fixed-k structural obstructions; P003 restricted-family theorem with reusable techniques; P004 robust sunflower advances with constructive content; FINAL unrestricted sunflower conjecture. None of the arrows are proved dependencies: P001→P002 method transfer only, P002→P003 parallel opportunity, P003→P004 conjectural method transfer, P004→FINAL speculative. Program may merge milestones, retire a non-novel target or work from proven prior art. Source: Janzer et al. Theorem 1.7, §6 (2026) and Rao survey (2026).
