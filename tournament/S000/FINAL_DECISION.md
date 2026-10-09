@@ -1,0 +1,5 @@
+# Championship decision — SUN
+
+Champion: **Erdős–Rado Sunflower Conjecture** (82/100, 9–0; defeats MDS in final). Runner-up **MDS** (77/100): stronger immediately demonstrable coding use but major September/October 2026 prior-art movement and uncertain independent early theorem. ROT has flexible matroid connections but rank-five open-status unconfirmed. The internal-kernel delta-system open question from Janzer et al. 2026 §6 supplies a precise first investigation, while Rao 2026 survey supports major conjecture open status. 
+
+Best first-paper starting opportunity: SUN **in the sense of directly cited question**, not success probability. Best long-term research: SUN. Best practical headline: MM (complexity) or MDS (existing error-correcting technology); no direct software promised. Highest breakthrough-ceiling significance: MM/twin primes by prestige alone, though SUN is selected on balanced criteria. Proposed repo rename: `sunflower-structures-programme`; DO NOT rename automatically. Child proposal `sunflower-internal-kernel-extraction`, NOT created. This is a **programme choice**, not a declaration of original theorem or a confirmed-open P001 claim.

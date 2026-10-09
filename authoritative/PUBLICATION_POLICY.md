@@ -1,0 +1,3 @@
+# Publication and external action policy
+
+Only manuscript after rigorous proof, independent check and second exact-result novelty audit. Journal selection depends on actual contribution and venue's current substantive-AI policy, checked before submission; include accurate AI disclosure, authorship and citations. Mathematical peer review/acceptance only after verified external events. Paper-stage statuses: IDEA, INVESTIGATING, PROVED_ON_PAPER, FORMAL_VERIFIED, NOVELTY_REAUDITED, PUBLICATION_READY, SUBMITTED, PEER_REVIEWED, PUBLISHED, PARKED. Manuscript preparation is not journal acceptance. Require separate user authority for all correspondence, arXiv, Palomar, journal, payment and external publicity.

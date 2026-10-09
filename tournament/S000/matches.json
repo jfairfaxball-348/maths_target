@@ -1,0 +1,317 @@
+[
+  {
+    "a": "SUN",
+    "b": "ROT",
+    "winner": "SUN",
+    "loser": "ROT",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "MDS",
+    "winner": "SUN",
+    "loser": "MDS",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "KSET",
+    "winner": "SUN",
+    "loser": "KSET",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "UNC",
+    "winner": "SUN",
+    "loser": "UNC",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "CH",
+    "winner": "SUN",
+    "loser": "CH",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "LRC",
+    "winner": "SUN",
+    "loser": "LRC",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "MM",
+    "winner": "SUN",
+    "loser": "MM",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "BF",
+    "winner": "SUN",
+    "loser": "BF",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "SUN",
+    "b": "TWIN",
+    "winner": "SUN",
+    "loser": "TWIN",
+    "reason": "Erdős–Rado Sunflower Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "MDS",
+    "winner": "MDS",
+    "loser": "ROT",
+    "reason": "MDS takes direct coding significance and exact algebraic certificate opportunities over matroid flexibility"
+  },
+  {
+    "a": "ROT",
+    "b": "KSET",
+    "winner": "ROT",
+    "loser": "KSET",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "UNC",
+    "winner": "ROT",
+    "loser": "UNC",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "CH",
+    "winner": "ROT",
+    "loser": "CH",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "LRC",
+    "winner": "ROT",
+    "loser": "LRC",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "MM",
+    "winner": "ROT",
+    "loser": "MM",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "BF",
+    "winner": "ROT",
+    "loser": "BF",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "ROT",
+    "b": "TWIN",
+    "winner": "ROT",
+    "loser": "TWIN",
+    "reason": "Rota's Basis Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "KSET",
+    "winner": "MDS",
+    "loser": "KSET",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "UNC",
+    "winner": "MDS",
+    "loser": "UNC",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "CH",
+    "winner": "MDS",
+    "loser": "CH",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "LRC",
+    "winner": "MDS",
+    "loser": "LRC",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "MM",
+    "winner": "MDS",
+    "loser": "MM",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "BF",
+    "winner": "MDS",
+    "loser": "BF",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MDS",
+    "b": "TWIN",
+    "winner": "MDS",
+    "loser": "TWIN",
+    "reason": "MDS Conjecture for Linear Codes has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "KSET",
+    "b": "UNC",
+    "winner": "UNC",
+    "loser": "KSET",
+    "reason": "Union-closed offers more independent combinatorial branches despite weaker immediate geometric transfer"
+  },
+  {
+    "a": "KSET",
+    "b": "CH",
+    "winner": "KSET",
+    "loser": "CH",
+    "reason": "Planar k-set Extremal Problem has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "KSET",
+    "b": "LRC",
+    "winner": "KSET",
+    "loser": "LRC",
+    "reason": "Planar k-set Extremal Problem has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "KSET",
+    "b": "MM",
+    "winner": "KSET",
+    "loser": "MM",
+    "reason": "Planar k-set Extremal Problem has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "KSET",
+    "b": "BF",
+    "winner": "KSET",
+    "loser": "BF",
+    "reason": "Planar k-set Extremal Problem has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "KSET",
+    "b": "TWIN",
+    "winner": "KSET",
+    "loser": "TWIN",
+    "reason": "Planar k-set Extremal Problem has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "UNC",
+    "b": "CH",
+    "winner": "UNC",
+    "loser": "CH",
+    "reason": "Frankl's Union-Closed Sets Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "UNC",
+    "b": "LRC",
+    "winner": "UNC",
+    "loser": "LRC",
+    "reason": "Frankl's Union-Closed Sets Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "UNC",
+    "b": "MM",
+    "winner": "UNC",
+    "loser": "MM",
+    "reason": "Frankl's Union-Closed Sets Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "UNC",
+    "b": "BF",
+    "winner": "UNC",
+    "loser": "BF",
+    "reason": "Frankl's Union-Closed Sets Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "UNC",
+    "b": "TWIN",
+    "winner": "UNC",
+    "loser": "TWIN",
+    "reason": "Frankl's Union-Closed Sets Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "CH",
+    "b": "LRC",
+    "winner": "CH",
+    "loser": "LRC",
+    "reason": "Caccetta–Häggkvist Directed Girth Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "CH",
+    "b": "MM",
+    "winner": "CH",
+    "loser": "MM",
+    "reason": "Caccetta–Häggkvist Directed Girth Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "CH",
+    "b": "BF",
+    "winner": "CH",
+    "loser": "BF",
+    "reason": "Caccetta–Häggkvist Directed Girth Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "CH",
+    "b": "TWIN",
+    "winner": "CH",
+    "loser": "TWIN",
+    "reason": "Caccetta–Häggkvist Directed Girth Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "LRC",
+    "b": "MM",
+    "winner": "LRC",
+    "loser": "MM",
+    "reason": "Lonely Runner Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "LRC",
+    "b": "BF",
+    "winner": "LRC",
+    "loser": "BF",
+    "reason": "Lonely Runner Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "LRC",
+    "b": "TWIN",
+    "winner": "LRC",
+    "loser": "TWIN",
+    "reason": "Lonely Runner Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MM",
+    "b": "BF",
+    "winner": "MM",
+    "loser": "BF",
+    "reason": "Matrix Multiplication Exponent 2 has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "MM",
+    "b": "TWIN",
+    "winner": "MM",
+    "loser": "TWIN",
+    "reason": "Matrix Multiplication Exponent 2 has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  },
+  {
+    "a": "BF",
+    "b": "TWIN",
+    "winner": "BF",
+    "loser": "TWIN",
+    "reason": "Beck–Fiala Discrepancy Conjecture has the stronger weighted portfolio; inspect quantitative score and candidate caveats."
+  }
+]

@@ -1,0 +1,3 @@
+# Authoritative reading order
+
+1. [AGENTS](../AGENTS.md). 2. [STATE](STATE.json). 3. [Charter](PROGRAMME_CHARTER.md), [Session](SESSION_PROTOCOL.md), [Novelty](NOVELTY_STANDARD.md), [Formalisation](FORMALISATION_POLICY.md), [Publication](PUBLICATION_POLICY.md), [Integrity](RESEARCH_INTEGRITY.md). 4. [Tournament decision](../tournament/S000/FINAL_DECISION.md). 5. [Milestones](../programme/MILESTONE_REGISTER.md), [claims](../programme/CLAIMS.md), [projects](../programme/PROJECTS.json), [P001 brief](../papers/PAPER_01_BRIEF.md). 6. Latest [session](../sessions/S000/CLOSEOUT.md) and [next handoff](../sessions/NEXT_SESSION.md). Machine-readable files are indices, evidence and history are in the linked markdown; conflicts must be resolved, never silently overridden.

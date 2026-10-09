@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "parent": "jfairfaxball-348/maths_target",
+  "active_project": null,
+  "projects": [],
+  "planned": [
+    {
+      "id": "P001",
+      "slug": "sunflower-internal-kernel-extraction",
+      "url": null,
+      "status": "AWAITING_AUTHORISATION",
+      "objective": "2026 §6 internal-kernel quantitative delta-system question",
+      "verified_commit": null,
+      "formal_status": "NONE",
+      "publication_status": "NONE",
+      "next_obligation": "P001-S000 bootstrap and renewed full prior-art gate"
+    }
+  ]
+}

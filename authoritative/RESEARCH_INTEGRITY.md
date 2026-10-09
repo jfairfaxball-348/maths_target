@@ -1,0 +1,3 @@
+# Integrity
+
+Never invent a source, theorem locator, independent verification, computation, publication, practical use or proof. Document corrections, retracted targets, failed searches and original human contribution. Published preprint claim ≠ peer-accepted theorem. Finite exhaustive certification ≠ universal proof. Algorithmic levels: existence, effective construction, polynomial-time construction, complexity guarantee, demonstrated useful scale; do not infer one from another. A child project update propagates to parent only after source commits and audit. Public repository may contain AI-assisted research, not confidential data.
