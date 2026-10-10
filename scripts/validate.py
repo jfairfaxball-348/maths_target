@@ -47,6 +47,7 @@ def check_registration(state, projects, receipt):
                            "P001-S005": ("P001-S006", ["HUMAN_PROGRAMME_DECISION_REQUIRED"])}
     expected_successors["P001-S006"] = ("P001-S007", ["HUMAN_BLOCK_COMPATIBILITY_DECISION_GATE"])
     expected_successors["P001-S007"] = ("P001-S008", ["HIGH_LOAD_VERTEX_RESERVOIR_COMPATIBILITY"])
+    expected_successors["P001-S008"] = ("P001-S009", ["TWO_HUB_MULTIPLICITY_SLICE"])
     if receipt.get("registration_kind") == "P001_S006_APPROVAL_ONLY":
         # Last substantive session remains S005; administrative approval changes its sole unexecuted successor.
         assert receipt["session"] == "P001-S005"
@@ -73,6 +74,17 @@ def check_registration(state, projects, receipt):
         assert project["last_child_session"] == "P001-S007"
         assert child["final_head_validation"] and all(x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success" for x in child["final_head_validation"])
         assert (ROOT / "sessions/P001-S007/REGISTRATION.md").is_file()
+    if receipt["session"] == "P001-S008":
+        assert receipt["registration_kind"] == "P001_S008_PROOF_FIRST_SINGLE_HUB_RESERVOIR_NEGATIVE"
+        assert audit["session_outcome"] == "SINGLE_HUB_HIGH_LOAD_RESERVOIR_REFUTED_BSEL_OPEN"
+        assert audit["single_hub_reservoir_refuted"] is True
+        assert audit["single_hub_counterexample_full_union_valid"] is True
+        assert audit["bsel_universal_proved"] is False and audit["bsel_universal_refuted"] is False
+        assert audit["independent_mathematical_review"] is False
+        assert audit["R3_TIK_refuted"] is False
+        assert project["last_child_session"] == "P001-S008"
+        assert child["final_head_validation"] and all(x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success" for x in child["final_head_validation"])
+        assert (ROOT / "sessions/P001-S008/REGISTRATION.md").is_file()
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]

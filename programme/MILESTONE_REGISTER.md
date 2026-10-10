@@ -32,3 +32,6 @@ Route A now explicitly approved: one bounded BSEL sunflower-block compatibility 
 
 ## P001-S006 independent child registration
 Child S006 performed one bounded block-compatibility source and symbolic analysis, resulting **C—RESTRICTED_BSEL_ONLY** (elementary vertex-disjoint block-support gamma=1, no originality claim). Arbitrary BSEL still UNPROVED, R3 literature STATUS_UNCERTAIN and full TIK unchanged. No mathematically independent scrutiny, N2, Lean, paper or algorithm. Verified merged child commit and CI in [P001 receipt](P001_REGISTRATION.json). Child S007 only human A/B/C decision gate; parent S001 not executed. Other milestones remain provisional.
+
+## P001-S008 independently checked status
+Child S008 false single-hub HUB_RES density statement, with parametric multi-component example where full whole-block union is internally valid including pair/singleton/empty kernels. This defeats only that auxiliary *sufficient proof technique*, not unrestricted BSEL/R3/TIK. P001 remains INVESTIGATING, source-posed TIK and headline SUN unchanged; no new result count, formal verification or publication. Next S009 two-heavy-vertex slice prepared only; parent S001 not executed. [Evidence](P001_REGISTRATION.json).

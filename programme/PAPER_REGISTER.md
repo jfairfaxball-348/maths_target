@@ -31,3 +31,6 @@ No paper-ready new theorem. One bounded BSEL study achieved only elementary rest
 
 ## P001-S007 proof-first child registration
 Owner instructed continued mathematical work without technical A/B/C selection and deferred detailed N1/N2 until a complete TIK paper-target proof. Child S007 establishes elementary restricted block selection when every vertex appears in at most m blocks (gamma=1/3), NOT arbitrary BSEL/R3/TIK. No independent mathematical review, originality claim, new extraction theorem, Lean proof, preprint, manuscript or publication. S008 is only prepared; programme S001 untouched. See [verified receipt](P001_REGISTRATION.json).
+
+## P001-S008 registration
+No paper theorem: negative evidence against the single-global-hub proof reduction does not settle unrestricted BSEL, R3 or the full TIK target. The multi-component construction itself meets the desired internal witnesses, showing that hub-concentration assumptions are too rigid. No new novelty audit by owner instruction, external review, Lean, manuscript or publication. S009 two-heavy-vertex technical successor remains unexecuted. [Observed child CI](P001_REGISTRATION.json).
