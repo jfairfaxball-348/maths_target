@@ -45,6 +45,18 @@ def check_registration(state, projects, receipt):
                            "P001-S003": ("P001-S004", ["L_AVG_COUNTEREXAMPLE_INDEPENDENT_AUDIT"]),
                            "P001-S004": ("P001-S005", ["FIVE_SESSION_PROGRESS_CORRECTION_AND_ROUTE_TRIAGE"]),
                            "P001-S005": ("P001-S006", ["HUMAN_PROGRAMME_DECISION_REQUIRED"])}
+    if receipt.get("registration_kind") == "P001_S006_APPROVAL_ONLY":
+        # Last substantive session remains S005; administrative approval changes its sole unexecuted successor.
+        assert receipt["session"] == "P001-S005"
+        expected_successors["P001-S005"] = ("P001-S006", ["BLOCK_COMPATIBILITY_FEASIBILITY_GATE"])
+        approved = receipt["approved_next_child_handoff"]
+        assert approved["session"] == "P001-S006" and approved["approved"] is True and approved["executed"] is False
+        assert approved["child_main_commit"] == child["main_commit"]
+        assert approved["method"] == "SUNFLOWER_BLOCK_COMPATIBILITY"
+        assert approved["source_first_N1_performed"] is False and approved["mathematical_proof_performed"] is False
+        assert audit["owner_decision_resolved_after_s005"] is True
+        assert audit["new_mathematical_session_executed"] is False
+        assert (ROOT / "sessions/P001-S006/APPROVAL_REGISTRATION.md").is_file()
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]

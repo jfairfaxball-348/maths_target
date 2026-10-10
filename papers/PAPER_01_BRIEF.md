@@ -23,3 +23,7 @@ Child main ba1483bc46c5e51d60774d93cada49b248bcff4e, PR #4 merged, successful ch
 ## P001-S005 verified research-integrity/route status
 
 Fifth substantive child progress audit has no paper-ready original theorem, no surviving approved R3 fixed-palette mechanism, and no attributed novel restricted all-m triple-family objective from its bounded source N1. **HUMAN_PROGRAMME_DECISION_REQUIRED**. The goal stays source-posed internal Ω_k(m^-k); ranks-three all-m status uncertain, no proof. Child P001-S006 is an unexecuted decision-only gate. Parent mathematical S001 remains unexecuted.
+
+## P001-S006 owner-approved Route A preparation
+
+The next research gate is now an approved but *unexecuted* attempt to assess a whole-sunflower-block compatibility candidate BSEL, a potentially stronger than R3 statement that may be false. Full prompt recorded in the checked child NEXT_SESSION, exact owner approval and SHA256 in its S006 approval manifest. No R3 proof, new theorem, source N1, Lean or manuscript; S005 remains last completed. This approval resolves the human A/B/C route decision without automatically proving anything.

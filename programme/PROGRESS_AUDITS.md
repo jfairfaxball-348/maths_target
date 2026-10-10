@@ -14,3 +14,7 @@ S004 child performed early correction by retiring two overstrong proposed auxili
 ## P001-S005 mandatory fifth substantive child audit — registered
 
 Confirmed child S001–S005 audit excludes S000 bootstrap, maps evidence against claims and failed assumptions, preserves sparse bound, retires exact L_AVG/B_CHARGE under provisional self-review, compares bounded N1, validates experiment/CI integrity and concludes there is no defensible autonomous next mathematical obligation. Human A/B/C choice required. Parent programme S001 STILL unexecuted and parent's own fifth-session cadence unaffected.
+
+## Owner approval of P001-S006 handoff — not substantive session
+
+The administrative publication of a BSEL P001-S006 prompt after completed fifth-substantive P001-S005 review does not count as an additional child research session or parent mathematical session. No new theorem/novelty/proof or changing S010 cadence. The candidate will require an N1 gate in its future bounded execution.
