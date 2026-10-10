@@ -3,7 +3,7 @@
   "repo": "jfairfaxball-348/sunflower-structures-programme",
   "repository_id": 1412469441,
   "session_completed": "S000",
-  "stage": "P001_S013_PROTECTED_A0_JOINT_SUBSLICE_GENERAL_BSEL_OPEN_S014_PREPARED",
+  "stage": "P001_S014_ALL_CLASS_REPAIR_REFUTED_SHARP_HALF_CONTROL_GENERAL_BSEL_OPEN_S015_PREPARED",
   "headline_id": "SUN",
   "headline_open_status": "STRONG_EVIDENCE_OPEN",
   "champion": "Erdős–Rado Sunflower Conjecture",
@@ -22,9 +22,9 @@
     "Incoming parent S000 prompt synopsis archived, not verbatim; child P001-S000 prompt archived verbatim"
   ],
   "next_programme_session": "S001",
-  "last_registry_update": "P001-S013",
+  "last_registry_update": "P001-S014",
   "child_registration": "programme/P001_REGISTRATION.json",
   "date": "2026-10-10",
-  "last_handoff_registration": "P001-S014_UNPROTECTED_PAIR_CLASS_JOINT_SELECTION_UNEXECUTED",
+  "last_handoff_registration": "P001-S015_PRESERVE_OR_DROP_PAIR_CLASS_UNEXECUTED",
   "owner_research_policy": "DEFER_N1_N2_UNTIL_COMPLETE_TIK_PROOF_CANDIDATE_AUTONOMOUS_METHOD_CHOICE"
 }
