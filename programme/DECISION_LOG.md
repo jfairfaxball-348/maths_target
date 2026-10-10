@@ -20,3 +20,7 @@
 ## P001-S004 metadata decision (status only)
 
 Observe merged child PR #5, child main 3a7e0f00830345e64fd5efb52cf4623a590d6a58 and exact-head/main hosted successful jobs. Record child D022 retirement of exact universal L_AVG/B_CHARGE; preserve independent-proof-audit pending label and unchanged headline. Do NOT execute parent programme S001 or child S005. Receipt and status only, no mathematical programme route choice at parent level.
+
+## P001-S005 status-only registration (NO parent mathematical session)
+
+Independently verify child PR #6, exact merged main 79fbbbc35fec42fdde0ada766f892ab83090615c, hosted exact-head validate 38064241407/job 114248536077 and merged-main validate 38064265353/job 114248605274. Register D024–D026 five-session audit and **HUMAN_PROGRAMME_DECISION_REQUIRED** (A fresh R3 method; B genuinely attributable all-m subclass; C pause and return to parent authority). Neither select nor execute an option. No positive mathematics or external action, parent S001 remains unexecuted.

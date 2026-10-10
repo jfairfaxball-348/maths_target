@@ -8,19 +8,19 @@
       "slug": "sunflower-internal-kernel-extraction",
       "repository_id": 1412820282,
       "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
-      "status": "INVESTIGATING",
+      "status": "INVESTIGATING_HUMAN_DECISION_PENDING",
       "objective": "2026 JJSW Section 6 internal-kernel quantitative extraction question",
-      "verified_commit": "3a7e0f00830345e64fd5efb52cf4623a590d6a58",
+      "verified_commit": "79fbbbc35fec42fdde0ada766f892ab83090615c",
       "verification_receipt": "programme/P001_REGISTRATION.json",
       "manifest_path": "project_manifest.json",
       "open_status": "STRONG_EVIDENCE_OPEN",
       "novelty_status": "NOVELTY_UNCERTAIN",
       "formal_status": "NOT_STARTED",
       "publication_status": "IDEA",
-      "next_obligation": "P001-S005 FIVE_SESSION_PROGRESS_CORRECTION_AND_ROUTE_TRIAGE: mandatory fifth-session audit and human-governed route assessment; not executed",
+      "next_obligation": "P001-S006 HUMAN_PROGRAMME_DECISION_REQUIRED: select A new R3 method, B source-attributed all-m rank-three subclass, or C pause P001; NO automatic mathematical pivot",
       "next_executed": false,
-      "last_child_session": "P001-S004",
-      "session_outcome": "NO_GENERAL_R3_PROGRESS_L_AVG_B_CHARGE_RETIRED"
+      "last_child_session": "P001-S005",
+      "session_outcome": "FIVE_SESSION_AUDIT_NO_APPROVED_SURVIVING_R3_ROUTE"
     }
   ],
   "planned": []

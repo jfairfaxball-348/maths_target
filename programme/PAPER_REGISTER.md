@@ -17,3 +17,7 @@ Child S003 disproves its project-origin L_AVG auxiliary random-colour expectatio
 ## P001-S004 verified registration
 
 Child S004 is an adversarial assistant self-audit and decision to retire its exact L_AVG/B_CHARGE universal proof routes. No independently reviewed theorem, R3/TIK counterexample, positive extraction, Lean, manuscript or submission. P001 remains INVESTIGATING / NOVELTY_UNCERTAIN / NOT_STARTED / IDEA. S005 is the sole prepared five-session correction audit, not executed. Verified child main/CI in P001_REGISTRATION.json.
+
+## P001-S005 fifth-session decision gate
+
+Child S005 audited all substantive S001–S005 evidence, source gaps and failed auxiliary colour mechanisms. **No paper-ready contribution**: positive R3 extraction theorem 0; no independently scrutinised mathematical result, N2, Lean or manuscript. Publication remains IDEA, formalisation NOT_STARTED. A/B/C human route choice needed before any P001-S006 task beyond decision documentation. Parent S001 unchanged.
