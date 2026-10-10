@@ -1,0 +1,13 @@
+# P001-S000 — independently verified child registration
+
+This update closes the child's bounded bootstrap/frontier session. It does not execute parent programme S001 or child P001-S001. The Erdos–Rado Sunflower Conjecture remains champion. The parent was already named sunflower-structures-programme and the child already existed empty at entry; no rename or repository creation occurred.
+
+Verified child main: `6630117cb29009600ae73bb8619da391d43305a8`. [PR 1](https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/1) was independently re-read as merged, with that exact merge SHA. The actual main ref, manifest, target, claims, state, formalisation, publication and handoff files were re-fetched at that immutable commit. [Main Actions run 38030898177](https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38030898177), job 114151437709, completed successfully including structural/JSON/semantic tests. Exact research-head push and PR jobs also passed before merge. Detailed receipt: [P001_REGISTRATION.json](../../programme/P001_REGISTRATION.json).
+
+The source-first N1 audit supports STRONG_EVIDENCE_OPEN for the full source-posed internal extraction question, with NOVELTY_UNCERTAIN and explicit limits on low-rank attribution and forward-citation coverage. Published and preprint sunflower existence statements are kept separate from internal all-pair extraction. No new theorem, Lean verification or publication is propagated. The sole child successor R3 is frozen but unexecuted; its rank-specific status is STATUS_UNCERTAIN.
+
+The child contains the exact incoming P001-S000 prompt archive, complete audit/specification/claims/risks and a standalone P001-S001 prompt. Its previous green validation SHA and receipts are in the manifest; this parent receipt supplies the later verified outgoing child merge without a self-referential hash. The historical parent S001 handoff is preserved verbatim in prompts/S001_BEFORE_P001_REGISTRATION.md; its current replacement reflects the observed child state and remains unexecuted.
+
+Parent validation retains all original tournament checks and adds registration invariants, run/job evidence consistency and zero-result count checks. Hosted validation must pass on this parent's exact PR head before merge. Observed parent runs are recorded in the receipt; final outgoing parent merge/main checks are reported in GitHub and the session closeout response. A prepared receipt alone is not proof of merged parent synchronisation.
+
+No new mathematical investigation, external submission, researcher contact, payment or successor execution occurred. STOP after P001-S000.

@@ -1,19 +1,26 @@
 {
   "schema": 1,
-  "parent": "jfairfaxball-348/maths_target",
-  "active_project": null,
-  "projects": [],
-  "planned": [
+  "parent": "jfairfaxball-348/sunflower-structures-programme",
+  "active_project": "P001",
+  "projects": [
     {
       "id": "P001",
       "slug": "sunflower-internal-kernel-extraction",
-      "url": null,
-      "status": "AWAITING_AUTHORISATION",
-      "objective": "2026 §6 internal-kernel quantitative delta-system question",
-      "verified_commit": null,
-      "formal_status": "NONE",
-      "publication_status": "NONE",
-      "next_obligation": "P001-S000 bootstrap and renewed full prior-art gate"
+      "repository_id": 1412820282,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
+      "status": "INVESTIGATING",
+      "objective": "2026 JJSW Section 6 internal-kernel quantitative extraction question",
+      "verified_commit": "6630117cb29009600ae73bb8619da391d43305a8",
+      "verification_receipt": "programme/P001_REGISTRATION.json",
+      "manifest_path": "project_manifest.json",
+      "open_status": "STRONG_EVIDENCE_OPEN",
+      "novelty_status": "NOVELTY_UNCERTAIN",
+      "formal_status": "NOT_STARTED",
+      "publication_status": "IDEA",
+      "next_obligation": "P001-S001 R3: bounded rank-three internal matching-retention feasibility; exact prior-art gate first",
+      "next_executed": false
     }
-  ]
+  ],
+  "planned": []
 }
+

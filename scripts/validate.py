@@ -1,9 +1,55 @@
 #!/usr/bin/env python3
 import json
+import re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def txt(p): return (ROOT/p).read_text(encoding="utf8")
+def check_registration(state, projects, receipt):
+    assert state["repo"] == projects["parent"] == receipt["parent"]["repository"] == "jfairfaxball-348/sunflower-structures-programme"
+    assert state["repository_id"] == receipt["parent"]["repository_id"] == 1412469441
+    assert state["session_completed"] == "S000" and state["next_programme_session"] == "S001"
+    assert state["headline_id"] == "SUN" and state["champion"] == "Erdős–Rado Sunflower Conjecture"
+    assert state["active_paper_id"] == projects["active_project"] == receipt["project_id"] == "P001"
+    assert state["child_repo_created"] and state["first_paper_authorized"]
+    assert not state["parent_repo_name_temporary"]
+    assert len(projects["projects"]) == 1 and projects["planned"] == []
+    project = projects["projects"][0]
+    child = receipt["child"]
+    assert project["repository_id"] == child["repository_id"] == 1412820282
+    assert child["repository"] == "jfairfaxball-348/sunflower-internal-kernel-extraction"
+    assert project["url"] == child["url"] == "https://github.com/" + child["repository"]
+    sha = child["main_commit"]
+    assert re.fullmatch(r"[0-9a-f]{40}", sha)
+    assert project["verified_commit"] == sha == child["merged_pr"]["merge_sha"]
+    assert child["merged_pr"]["merged"] and child["merged_pr"]["merged_at"]
+    run = child["main_validation"]
+    assert run["head_sha"] == sha and run["event"] == "push"
+    assert run["status"] == "completed" and run["conclusion"] == "success"
+    assert run["jobs"] and any(j["name"] == "validate" for j in run["jobs"])
+    for job in run["jobs"]:
+        assert job["id"] > 0 and job["status"] == "completed" and job["conclusion"] == "success"
+        assert job["steps"] and all(s["conclusion"] == "success" for s in job["steps"])
+    audit = receipt["independent_registration_verification"]
+    for field in ("open_status", "novelty_status", "formal_status", "publication_status"):
+        assert project[field] == audit[field]
+    assert audit["open_status"] == "STRONG_EVIDENCE_OPEN"
+    assert audit["novelty_status"] == "NOVELTY_UNCERTAIN"
+    assert audit["formal_status"] == "NOT_STARTED" and audit["publication_status"] == "IDEA"
+    assert state["mathematical_result_count"] == audit["new_theorems"] == 0
+    assert state["formal_verifications"] == audit["formal_verifications"] == 0
+    assert state["publications"] == audit["publications"] == 0
+    next_step = receipt["next_child_obligation"]
+    assert next_step["session"] == "P001-S001" and next_step["objectives"] == ["R3"]
+    assert next_step["open_status"] == "STATUS_UNCERTAIN"
+    assert not next_step["executed"] and not project["next_executed"]
+    assert not receipt["parent_programme_session_executed"]
+    for observed in receipt["parent_registration_ci"]:
+        assert re.fullmatch(r"[0-9a-f]{40}", observed["head_sha"])
+        assert observed["conclusion"] == "success" and observed["jobs"]
+        assert all(j["conclusion"] == "success" for j in observed["jobs"])
 def main():
+    for path in ROOT.rglob("*.json"):
+        json.loads(path.read_text(encoding="utf8"))
     candidates=json.loads(txt("tournament/S000/data.json"))
     assert len(candidates)==10 and len({x["id"] for x in candidates})==10
     assert sum(candidates[0]["weights"])==100
@@ -37,8 +83,13 @@ def main():
     required=["AGENTS.md","authoritative/STATE.json","authoritative/NOVELTY_STANDARD.md","authoritative/FORMALISATION_POLICY.md","programme/PROJECTS.json","papers/PAPER_01_BRIEF.md","papers/P001_S000_KICKOFF_PROMPT.md","sessions/NEXT_SESSION.md","sessions/S000/CLOSEOUT.md"]
     for p in required: assert (ROOT/p).is_file(),p
     state=json.loads(txt("authoritative/STATE.json"))
-    assert state["session_completed"]=="S000" and state["active_paper_id"] is None and not state["child_repo_created"]
-    projects=json.loads(txt("programme/PROJECTS.json")); assert projects["projects"]==[]
+    projects=json.loads(txt("programme/PROJECTS.json"))
+    receipt=json.loads(txt("programme/P001_REGISTRATION.json"))
+    check_registration(state, projects, receipt)
+    assert (ROOT/"sessions/P001-S000/REGISTRATION.md").is_file()
+    assert (ROOT/"prompts/S001_BEFORE_P001_REGISTRATION.md").is_file()
+    assert not (ROOT/"sessions/S001").exists(), "Registration is not parent S001"
     assert "NOT VERBATIM" in txt("prompts/S000_INPUT.md")
-    print("PASS: 10 candidates, 45 matches, scores, full bracket, ladders, parent/child state and handoffs")
+    print("PASS: 10 candidates, 45 matches, scores, full bracket, ladders, JSON, checked child registration, zero-result counts and separate handoffs")
 if __name__=="__main__":main()
+
