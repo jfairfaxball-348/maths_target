@@ -52,6 +52,7 @@ def check_registration(state, projects, receipt):
     expected_successors["P001-S010"] = ("P001-S011", ["EXACT_PRIVATE_LIGHT_SINGLETON_LINK_MATCHING_CERTIFICATE"])
     expected_successors["P001-S011"] = ("P001-S012", ["DENSITY_PRESERVING_EXACT_HUB_FOOTPRINT_SELECTION"])
     expected_successors["P001-S012"] = ("P001-S013", ["PAIR_ROBUST_SINGLETON_EMPTY_SELECTION"])
+    expected_successors["P001-S013"] = ("P001-S014", ["UNPROTECTED_HUB_JOINT_PAIR_CLASS_SELECTION"])
     if receipt.get("registration_kind") == "P001_S006_APPROVAL_ONLY":
         # Last substantive session remains S005; administrative approval changes its sole unexecuted successor.
         assert receipt["session"] == "P001-S005"
@@ -137,6 +138,19 @@ def check_registration(state, projects, receipt):
         assert project["last_child_session"] == "P001-S012"
         assert child["final_head_validation"] and all(x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success" for x in child["final_head_validation"])
         assert (ROOT / "sessions/P001-S012/REGISTRATION.md").is_file()
+    if receipt["session"] == "P001-S013":
+        assert receipt["registration_kind"] == "P001_S013_RESTRICTED_PROTECTED_A0_JOINT_CERTIFICATE_STATUS_ONLY"
+        assert audit["session_outcome"] == "A0_PROTECTED_JOINT_REFINE_GAMMA_ONE_GENERAL_UNPROVED"
+        assert audit["protected_A0_requires_extra_assumptions"] is True
+        assert audit["protected_A0_bound"] == "t/(m-1) >= t/m^3"
+        assert audit["private_light_two_heavy_bsel_proved"] is False
+        assert audit["bsel_universal_proved"] is False and audit["full_tik_proved"] is False
+        assert audit["independent_mathematical_review"] is False
+        assert project["last_child_session"] == "P001-S013"
+        assert child["final_head_validation"] and all(
+            x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success"
+            for x in child["final_head_validation"])
+        assert (ROOT / "sessions/P001-S013/REGISTRATION.md").is_file()
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]
