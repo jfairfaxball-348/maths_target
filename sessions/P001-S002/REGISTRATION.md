@@ -7,3 +7,5 @@ Child outcome: **RESTRICTED_SUNFLOWER_FREE_BOUND_GENERAL_L_AVG_UNRESOLVED**. Its
 Only parent **metadata** is updated to record verified child evidence and unexecuted P001-S003 L_AVG_HEAVY_LINK_CHARGING. The programme champion remains the Erdős–Rado Sunflower Conjecture; parent mathematical S001 remains unexecuted. The previous P001-S001 registration receipt is preserved at sessions/P001-S001/REGISTRATION_RECEIPT.json; prior parent S001 handoff is archived at prompts/S001_BEFORE_P001_S002_STATUS.md. No target/paper/headline pivot, researcher contact, external submission, payment or rename occurs.
 
 Parent PR must pass exact-head hosted validate and unit tests before merge; merged parent main and its own workflow must then be inspected. The containing commit cannot truthfully attest to its own outgoing hash.
+
+First observed parent PR validate run: `38057728537`, job `114229523592`, success on exact head `8a89c7feb2268aeefed227f6392a1c87135d0cbd`, including both required commands. The final containing head and merged main require fresh independent checks.

@@ -205,7 +205,39 @@
     "executed": false
   },
   "parent_programme_session_executed": false,
-  "parent_registration_ci": [],
+  "parent_registration_ci": [
+    {
+      "run_id": 38057728537,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38057728537",
+      "event": "pull_request",
+      "head_sha": "8a89c7feb2268aeefed227f6392a1c87135d0cbd",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 114229523592,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python3 scripts/validate.py",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Run python3 -m unittest discover -s tests -v",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            }
+          ]
+        }
+      ],
+      "checkout_semantics": "First checked parent registration PR head; later outgoing head and merge checked externally"
+    }
+  ],
   "previous_registration_receipt": "sessions/P001-S001/REGISTRATION_RECEIPT.json",
   "outgoing_parent_commit_evidence": "Subsequent PR/main checks must be observed externally; receipt cannot embed its own commit hash."
 }
