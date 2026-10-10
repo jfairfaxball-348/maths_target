@@ -53,6 +53,7 @@ def check_registration(state, projects, receipt):
     expected_successors["P001-S011"] = ("P001-S012", ["DENSITY_PRESERVING_EXACT_HUB_FOOTPRINT_SELECTION"])
     expected_successors["P001-S012"] = ("P001-S013", ["PAIR_ROBUST_SINGLETON_EMPTY_SELECTION"])
     expected_successors["P001-S013"] = ("P001-S014", ["UNPROTECTED_HUB_JOINT_PAIR_CLASS_SELECTION"])
+    expected_successors["P001-S014"] = ("P001-S015", ["QUANTITATIVE_PRESERVE_OR_DROP_PAIR_CLASS_REFINEMENT"])
     if receipt.get("registration_kind") == "P001_S006_APPROVAL_ONLY":
         # Last substantive session remains S005; administrative approval changes its sole unexecuted successor.
         assert receipt["session"] == "P001-S005"
@@ -151,6 +152,22 @@ def check_registration(state, projects, receipt):
             x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success"
             for x in child["final_head_validation"])
         assert (ROOT / "sessions/P001-S013/REGISTRATION.md").is_file()
+    if receipt["session"] == "P001-S014":
+        assert receipt["registration_kind"] == "P001_S014_UNPROTECTED_SATURATED_CLASS_REPAIR_NEGATIVE_SHARP_HALF_CONTROL_STATUS_ONLY"
+        assert audit["session_outcome"] == "NSCR_FALSE_SHARP_HALF_DENSITY_POSITIVE_CONTROL"
+        assert audit["unprotected_all_class_repair_refuted"] is True
+        assert audit["unprotected_cycle_positive_over_half"] is True
+        assert audit["all_three_block_core_sizes"] is True
+        assert audit["s013_protected_theorem_unchanged"] is True
+        assert audit["private_light_two_heavy_bsel_proved"] is False
+        assert audit["private_light_two_heavy_bsel_refuted"] is False
+        assert audit["bsel_universal_proved"] is False and audit["bsel_universal_refuted"] is False
+        assert audit["full_tik_proved"] is False and audit["independent_mathematical_review"] is False
+        assert project["last_child_session"] == "P001-S014"
+        assert child["final_head_validation"] and all(
+            x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success"
+            for x in child["final_head_validation"])
+        assert (ROOT / "sessions/P001-S014/REGISTRATION.md").is_file()
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]
