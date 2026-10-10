@@ -32,3 +32,8 @@ Independent evidence: child PR #7 (approved S006 prompt publication, not executi
 ## Verified P001-S006 child research registration — STATUS ONLY
 - D029P: Independent live child evidence: PR #8 final head 24c44eef3fa24b29eb774a88b6a891bffdb85105 success hosted validate run 38067577376/job 114258248542, merged main 75dedd9cbf81f584cd7fafaa64eecff04fa34a45 success run 38067603855/job 114258324774. This confirms repository/CI, NOT independent mathematical scrutiny.
 - D030P: S006 bounded outcome C—RESTRICTED_BSEL_ONLY; elementary disjoint-support gamma=1, universal BSEL unproved/not refuted, conditional BSEL=>R3 only. No original theorem/N2/Lean/paper. Register S007 human gate, no implicit second attack or parent S001.
+
+## Registered P001-S007 proof-first owner directive — status only
+- D031P: Owner expressly authorised assistant-led mathematical routes toward unchanged TIK and deferred detailed N1/N2 until a complete full-paper theorem proof candidate. This supersedes historic technical human-choice gates but NOT external actions, theory integrity, session boundary or programme headline changes.
+- D032P: Independently observed child PR #9 final head 90a0bf09be542cb273e5d84217b0dde8d00f53fd with PR run 38070140522/job 114265693505 SUCCESS and merged child main f0417e8195f2cbfbc6d7e989329070d794dc2490, push run 38070169198/job 114265774477 SUCCESS. This is independent GitHub validation, not independent mathematical review.
+- D033P: Elementary whole-block BSEL restricted to max vertex block multiplicity <=m, gamma=1/3 (S007); arbitrary BSEL/R3/TIK unproved. Child S008 one bounded future high-load proof attempt, unexecuted. Parent mathematical S001 unexecuted; zero theorem/formalisation/publication promotions.
