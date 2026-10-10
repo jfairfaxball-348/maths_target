@@ -1,24 +1,29 @@
 {
   "schema": 1,
-  "repo": "jfairfaxball-348/maths_target",
+  "repo": "jfairfaxball-348/sunflower-structures-programme",
+  "repository_id": 1412469441,
   "session_completed": "S000",
-  "stage": "PROGRAMME_BOOTSTRAPPED_NO_CHILD",
+  "stage": "P001_FRONTIER_VALIDATED",
   "headline_id": "SUN",
   "headline_open_status": "STRONG_EVIDENCE_OPEN",
   "champion": "Erdős–Rado Sunflower Conjecture",
-  "parent_repo_name_temporary": true,
-  "proposed_rename": "sunflower-structures-programme",
-  "active_paper_id": null,
+  "parent_repo_name_temporary": false,
+  "proposed_rename": null,
+  "active_paper_id": "P001",
   "first_paper_milestone": "P001",
-  "child_repo_created": false,
-  "first_paper_authorized": false,
+  "child_repo_created": true,
+  "first_paper_authorized": true,
   "mathematical_result_count": 0,
   "formal_verifications": 0,
   "publications": 0,
   "source_limitations": [
-    "P001 exact open status still requires independently revalidated audit",
-    "Incoming S000 prompt synopsis archived, not verbatim"
+    "P001 full target is source-posed with strong evidence of openness, not exhaustive independently confirmed non-resolution",
+    "Exact low-rank internal extraction attribution remains STATUS_UNCERTAIN",
+    "Incoming parent S000 prompt synopsis archived, not verbatim; child P001-S000 prompt archived verbatim"
   ],
   "next_programme_session": "S001",
-  "date": "2026-10-09"
+  "last_registry_update": "P001-S000",
+  "child_registration": "programme/P001_REGISTRATION.json",
+  "date": "2026-10-10"
 }
+

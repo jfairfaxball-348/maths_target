@@ -7,3 +7,8 @@
 - D004: do not declare P001 confirmed novel; independently inspect full theorem/proofs + post-August 2026 developments before first mathematical attack.
 - D005: S000 input archival limitation disclosed, no fabricated verbatim record.
 
+- D006 2026-10-10, P001-S000 registration only: live parent ID 1412469441 already has canonical name sunflower-structures-programme and main 361591a3e40d8f7aee2af58f59e838581de9f0fe. Child ID 1412820282 already existed empty. The current explicit P001-S000 launch instruction authorises bounded work in that named existing child and verified parent registration. No repository creation or rename was performed. D002/D003 retain their historical S000 meaning; stale current-state flags are reconciled to observed reality.
+- D007: register the independently verified child main, merged PR and successful Actions jobs through the evidence receipt. Preserve full-target STRONG_EVIDENCE_OPEN / NOVELTY_UNCERTAIN and no theorem/Lean/publication claim. This is a P001-S000 closeout metadata update, not execution of parent S001.
+- D008: child freezes exactly one successor R3, rank-three all-m internal link-matching retention feasibility with a prior-art gate. Rank-specific status remains uncertain, and paper-worthiness is conditional. Do not start that investigation in the bootstrap session or quietly replace the source target.
+
+
