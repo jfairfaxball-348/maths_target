@@ -46,6 +46,7 @@ def check_registration(state, projects, receipt):
                            "P001-S004": ("P001-S005", ["FIVE_SESSION_PROGRESS_CORRECTION_AND_ROUTE_TRIAGE"]),
                            "P001-S005": ("P001-S006", ["HUMAN_PROGRAMME_DECISION_REQUIRED"])}
     expected_successors["P001-S006"] = ("P001-S007", ["HUMAN_BLOCK_COMPATIBILITY_DECISION_GATE"])
+    expected_successors["P001-S007"] = ("P001-S008", ["HIGH_LOAD_VERTEX_RESERVOIR_COMPATIBILITY"])
     if receipt.get("registration_kind") == "P001_S006_APPROVAL_ONLY":
         # Last substantive session remains S005; administrative approval changes its sole unexecuted successor.
         assert receipt["session"] == "P001-S005"
@@ -64,6 +65,14 @@ def check_registration(state, projects, receipt):
         assert receipt["independent_registration_verification"]["bsel_universal_proved"] is False
         assert receipt["independent_registration_verification"]["independent_mathematical_review"] is False
         assert (ROOT / "sessions/P001-S006/REGISTRATION.md").is_file()
+    if receipt["session"] == "P001-S007":
+        assert receipt["registration_kind"] == "P001_S007_PROOF_FIRST_RESTRICTED_LOW_LOAD"
+        assert audit["session_outcome"] == "RESTRICTED_LOW_LOAD_BSEL_PROVED_NO_FULL_EXTRACTION"
+        assert audit["bsel_universal_proved"] is False and audit["independent_mathematical_review"] is False
+        assert audit["owner_policy"] == "PROOF_FIRST_TECHNICAL_METHOD_SELECTION_AUTONOMOUS_AND_PRIOR_ART_DEFERRED_UNTIL_COMPLETE_TIK_PROOF"
+        assert project["last_child_session"] == "P001-S007"
+        assert child["final_head_validation"] and all(x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success" for x in child["final_head_validation"])
+        assert (ROOT / "sessions/P001-S007/REGISTRATION.md").is_file()
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]

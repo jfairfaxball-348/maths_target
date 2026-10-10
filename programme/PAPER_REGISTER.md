@@ -28,3 +28,6 @@ Owner approved a candidate new proof mechanism (BSEL blocks), not a theorem or p
 
 ## P001-S006 registered
 No paper-ready new theorem. One bounded BSEL study achieved only elementary restricted vertex-disjoint-support gamma=1 selection, universal BSEL unresolved. Source N1 bounded, novelty uncertain, no N2/independent review/Lean/manuscript. Remain INVESTIGATING / NOVELTY_UNCERTAIN / NOT_STARTED formalisation / IDEA publication. Child S007 awaits human route decision, parent S001 unexecuted.
+
+## P001-S007 proof-first child registration
+Owner instructed continued mathematical work without technical A/B/C selection and deferred detailed N1/N2 until a complete TIK paper-target proof. Child S007 establishes elementary restricted block selection when every vertex appears in at most m blocks (gamma=1/3), NOT arbitrary BSEL/R3/TIK. No independent mathematical review, originality claim, new extraction theorem, Lean proof, preprint, manuscript or publication. S008 is only prepared; programme S001 untouched. See [verified receipt](P001_REGISTRATION.json).
