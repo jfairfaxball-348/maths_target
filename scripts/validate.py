@@ -41,7 +41,8 @@ def check_registration(state, projects, receipt):
     next_step = receipt["next_child_obligation"]
     expected_successors = {"P001-S000": ("P001-S001", ["R3"]),
                            "P001-S001": ("P001-S002", ["L_AVG"]),
-                           "P001-S002": ("P001-S003", ["L_AVG_HEAVY_LINK_CHARGING"])}
+                           "P001-S002": ("P001-S003", ["L_AVG_HEAVY_LINK_CHARGING"]),
+                           "P001-S003": ("P001-S004", ["L_AVG_COUNTEREXAMPLE_INDEPENDENT_AUDIT"])}
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]
@@ -60,6 +61,17 @@ def check_registration(state, projects, receipt):
         assert project["last_child_session"] == "P001-S002"
         assert len(child["final_head_validation"]) >= 1
         for checked in child["final_head_validation"][:1]:
+            assert checked["head_sha"] == child["merged_pr"]["head_sha"]
+            assert checked["conclusion"] == "success" and checked["jobs"]
+            assert all(j["conclusion"] == "success" for j in checked["jobs"])
+    if receipt["session"] == "P001-S003":
+        assert audit["session_outcome"] == "NO_GENERAL_PROGRESS_L_AVG_REFUTED"
+        assert audit["r3_literature_status"] == "STATUS_UNCERTAIN"
+        assert audit["auxiliary_L_AVG_status"] == "COUNTEREXAMPLE_ON_PAPER_INDEPENDENT_REVIEW_PENDING"
+        assert not audit["R3_TIK_refuted"]
+        assert project["last_child_session"] == "P001-S003"
+        assert child["final_head_validation"]
+        for checked in child["final_head_validation"]:
             assert checked["head_sha"] == child["merged_pr"]["head_sha"]
             assert checked["conclusion"] == "success" and checked["jobs"]
             assert all(j["conclusion"] == "success" for j in checked["jobs"])
@@ -120,6 +132,9 @@ def main():
         assert (ROOT/"sessions/P001-S002/REGISTRATION.md").is_file()
         assert (ROOT/"sessions/P001-S001/REGISTRATION_RECEIPT.json").is_file()
         assert (ROOT/"prompts/S001_BEFORE_P001_S002_STATUS.md").is_file()
+    if receipt["session"] == "P001-S003":
+        assert (ROOT/"sessions/P001-S003/REGISTRATION.md").is_file()
+        assert (ROOT/"sessions/P001-S002/REGISTRATION.md").is_file()
     assert "NOT VERBATIM" in txt("prompts/S000_INPUT.md")
     print("PASS: 10 candidates, 45 matches, scores, full bracket, ladders, JSON, checked child registration, zero-result counts and separate handoffs")
 if __name__=="__main__":main()
