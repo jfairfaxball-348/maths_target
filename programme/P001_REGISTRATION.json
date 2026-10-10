@@ -1,88 +1,52 @@
 {
   "schema_version": 1,
-  "session": "P001-S012",
+  "session": "P001-S013",
   "project_id": "P001",
   "observed_on": "2026-10-10",
   "parent": {
     "repository": "jfairfaxball-348/sunflower-structures-programme",
     "repository_id": 1412469441,
-    "starting_main": "ba7d62b2fb46739119a2a7d7f3ead76b4d92398b"
+    "starting_main": "20e75194b5e2696206b03c781e45f52d6eea78b7"
   },
   "child": {
     "repository": "jfairfaxball-348/sunflower-internal-kernel-extraction",
     "repository_id": 1412820282,
     "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
-    "main_commit": "5df20007c600429499ba47661da3040c24408198",
-    "tree_sha": "3e9e412d76e7688f63669250ff04e51855565131",
+    "main_commit": "04cefc2e23e03fe0520a0311aef2e3df9a85cdb2",
+    "tree_sha": "7cae6e2bbbb10d09ed9950b967ef11b02d0f2471",
     "manifest_path": "project_manifest.json",
     "merged_pr": {
-      "number": 14,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/14",
+      "number": 15,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/15",
       "merged": true,
-      "merged_at": "2026-10-10T19:41:59Z",
-      "head_sha": "b716333c66ff6d1029375885a134efef3971f45f",
-      "merge_sha": "5df20007c600429499ba47661da3040c24408198"
-    },
-    "main_validation": {
-      "run_id": 38080833937,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38080833937",
-      "event": "push",
-      "head_sha": "5df20007c600429499ba47661da3040c24408198",
-      "status": "completed",
-      "conclusion": "success",
-      "jobs": [
-        {
-          "id": 114297222544,
-          "name": "validate",
-          "status": "completed",
-          "conclusion": "success",
-          "steps": [
-            {
-              "number": 4,
-              "name": "Validate records and exact target",
-              "conclusion": "success"
-            },
-            {
-              "number": 5,
-              "name": "Check internal and external semantics",
-              "conclusion": "success"
-            },
-            {
-              "number": 6,
-              "name": "Report checked commit",
-              "conclusion": "success"
-            }
-          ]
-        }
-      ]
+      "merged_at": "2026-10-10T21:08:43Z",
+      "head_sha": "678c957a948e5c85af6810dbe26de07c1e2f33a1",
+      "merge_sha": "04cefc2e23e03fe0520a0311aef2e3df9a85cdb2"
     },
     "final_head_validation": [
       {
-        "run_id": 38080805229,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38080805229",
+        "run_id": 38086469514,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38086469514",
         "event": "pull_request",
-        "head_sha": "b716333c66ff6d1029375885a134efef3971f45f",
+        "head_sha": "678c957a948e5c85af6810dbe26de07c1e2f33a1",
         "status": "completed",
         "conclusion": "success",
         "jobs": [
           {
-            "id": 114297137749,
+            "id": 114313908724,
             "name": "validate",
             "status": "completed",
             "conclusion": "success",
             "steps": [
               {
-                "number": 4,
                 "name": "Validate records and exact target",
                 "conclusion": "success"
               },
               {
-                "number": 5,
                 "name": "Check internal and external semantics",
                 "conclusion": "success"
               },
               {
-                "number": 6,
                 "name": "Report checked commit",
                 "conclusion": "success"
               }
@@ -91,60 +55,60 @@
         ]
       }
     ],
+    "main_validation": {
+      "run_id": 38086490406,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38086490406",
+      "event": "push",
+      "head_sha": "04cefc2e23e03fe0520a0311aef2e3df9a85cdb2",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 114313971698,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Validate records and exact target",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check internal and external semantics",
+              "conclusion": "success"
+            },
+            {
+              "name": "Report checked commit",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    },
     "last_completed_substantive_session": {
-      "session": "P001-S012",
-      "main_commit": "5df20007c600429499ba47661da3040c24408198",
+      "session": "P001-S013",
+      "main_commit": "04cefc2e23e03fe0520a0311aef2e3df9a85cdb2",
       "merged_pr": {
-        "number": 14,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/14",
-        "merged": true,
-        "merged_at": "2026-10-10T19:41:59Z",
-        "head_sha": "b716333c66ff6d1029375885a134efef3971f45f",
-        "merge_sha": "5df20007c600429499ba47661da3040c24408198"
+        "number": 15,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/15",
+        "head_sha": "678c957a948e5c85af6810dbe26de07c1e2f33a1",
+        "merge_sha": "04cefc2e23e03fe0520a0311aef2e3df9a85cdb2"
       },
       "main_validation": {
-        "run_id": 38080833937,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38080833937",
-        "event": "push",
-        "head_sha": "5df20007c600429499ba47661da3040c24408198",
-        "status": "completed",
-        "conclusion": "success",
-        "jobs": [
-          {
-            "id": 114297222544,
-            "name": "validate",
-            "status": "completed",
-            "conclusion": "success",
-            "steps": [
-              {
-                "number": 4,
-                "name": "Validate records and exact target",
-                "conclusion": "success"
-              },
-              {
-                "number": 5,
-                "name": "Check internal and external semantics",
-                "conclusion": "success"
-              },
-              {
-                "number": 6,
-                "name": "Report checked commit",
-                "conclusion": "success"
-              }
-            ]
-          }
-        ]
+        "run_id": 38086490406,
+        "job_id": 114313971698,
+        "conclusion": "success"
       }
     }
   },
   "independent_registration_verification": {
-    "method": "Verified LIVE child S012 PR #14 final head b716333c66ff6d1029375885a134efef3971f45f with hosted research-integrity PR run 38080805229 validate job 114297137749 SUCCESS; GitHub merge to main 5df20007c600429499ba47661da3040c24408198 and push run 38080833937 validate job 114297222544 SUCCESS. Verified actual run and jobs/required steps. PAIR_FILTER same-assistant only; GitHub CI does not independently check proof mathematics.",
+    "method": "Independently checked LIVE child S013 PR #15 final head 678c957a948e5c85af6810dbe26de07c1e2f33a1 with research-integrity PR run 38086469514 validate job 114313908724 SUCCESS; merged child main 04cefc2e23e03fe0520a0311aef2e3df9a85cdb2 and research-integrity push run 38086490406 validate job 114313971698 SUCCESS. Hosted semantics/record validation only; same-assistant symbolic proof not independent maths review.",
     "verified_paths": [
-      "research/S012_PAIR_CERTIFICATE_SELECTION.md",
-      "sessions/P001-S012/INPUT.md",
-      "sessions/P001-S012/INPUT_MANIFEST.json",
-      "sessions/P001-S012/ENTRY_EVIDENCE.json",
-      "sessions/P001-S012/CLOSEOUT.md",
+      "research/S013_PAIR_ROBUST_A0_ANCHORS.md",
+      "sessions/P001-S013/INPUT.md",
+      "sessions/P001-S013/INPUT_MANIFEST.json",
+      "sessions/P001-S013/ENTRY_EVIDENCE.json",
+      "sessions/P001-S013/CLOSEOUT.md",
       "sessions/NEXT_SESSION.md",
       "authoritative/STATE.json",
       "project_manifest.json"
@@ -157,83 +121,57 @@
     "new_theorems": 0,
     "formal_verifications": 0,
     "publications": 0,
-    "session_outcome": "PAIR_FILTER_AT_LEAST_T_OVER_M_MINUS_ONE_ONLY_JOINT_DENSITY_OPEN",
+    "session_outcome": "A0_PROTECTED_JOINT_REFINE_GAMMA_ONE_GENERAL_UNPROVED",
     "r3_literature_status": "STATUS_UNCERTAIN",
-    "auxiliary_L_AVG_status": "PROVISIONAL_ANALYTICALLY_SUPPORTED_COUNTEREXAMPLE_ROUTE_RETIRED",
-    "heavy_link_B_CHARGE": "PROVISIONAL_ANALYTICALLY_SUPPORTED_COUNTEREXAMPLE_ROUTE_RETIRED",
     "independent_mathematical_review": false,
-    "R3_TIK_refuted": false,
-    "human_decision_required": false,
-    "new_mathematical_candidate_promoted": false,
-    "approved_next_route": "A_CONTINUE_R3_NEW_APPROACH",
-    "new_mathematical_session_executed": true,
     "bsel_universal_proved": false,
     "bsel_universal_refuted": false,
-    "bsel_novelty": "NOVELTY_UNCERTAIN",
-    "restricted_result": "MAX_VERTEX_BLOCK_LOAD_AT_MOST_M_GAMMA_ONE_THIRD",
-    "restricted_originality_claim": false,
-    "n2_completed": false,
-    "n1_deferred_by_owner": true,
-    "owner_policy": "PROOF_FIRST_TECHNICAL_METHOD_SELECTION_AUTONOMOUS_AND_PRIOR_ART_DEFERRED_UNTIL_COMPLETE_TIK_PROOF",
-    "single_hub_reservoir_refuted": true,
-    "single_hub_counterexample_full_union_valid": true,
-    "two_heavy_bsel_proved": false,
-    "two_heavy_bsel_refuted": false,
-    "two_heavy_thin_q_refuted": true,
-    "two_heavy_counterexample_full_union_valid": true,
-    "private_light_sat_cross_refuted": true,
-    "private_light_control_valid_over_half": true,
-    "tenth_audit_completed": true,
-    "s005_rechecked": true,
     "private_light_two_heavy_bsel_proved": false,
     "private_light_two_heavy_bsel_refuted": false,
     "full_tik_proved": false,
-    "exact_residual_matching_formula_proved_same_assistant": true,
-    "exact_mandatory_core_empty_matching_identity_same_assistant": true,
-    "local_to_empty_certification_lemma_refuted": true,
-    "two_star_positive_half_density_control": true,
-    "pair_only_quantitative_lemma_same_assistant": true,
-    "pair_certificate_retained_blocks": "t/(m-1)",
-    "pair_filter_is_not_joint_bsel": true,
-    "s012_joint_certificates_proved": false,
-    "s012_controls_singleton_and_empty_failures": true
+    "protected_A0_gamma": "1",
+    "protected_A0_bound": "t/(m-1) >= t/m^3",
+    "protected_A0_requires_extra_assumptions": true,
+    "partial_pair_filter_retention_not_general_joint": true,
+    "owner_policy": "PROOF_FIRST_N1_N2_DEFERRED_UNTIL_COMPLETE_ALL_K_TIK",
+    "parent_mathematical_s001_executed": false
   },
   "next_child_obligation": {
-    "session": "P001-S013",
+    "session": "P001-S014",
     "objectives": [
-      "PAIR_ROBUST_SINGLETON_EMPTY_SELECTION"
+      "UNPROTECTED_HUB_JOINT_PAIR_CLASS_SELECTION"
     ],
     "open_status": "STATUS_UNCERTAIN",
     "executed": false,
-    "interpretation": "One separate future full-certificate selection gate using exact S011 residual/mandatory-core matchings and S012 pair-active filtration; full every-k TIK unchanged."
+    "interpretation": "One future fully standalone S014 bound/obstruction on unprotected original-heavy singleton and empty matching certificates while retaining pair-safe whole blocks."
   },
   "parent_programme_session_executed": false,
   "parent_registration_ci": [
     {
-      "run_id": 38077914240,
-      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38077914240",
+      "run_id": 38081001774,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38081001774",
       "event": "push",
-      "head_sha": "ba7d62b2fb46739119a2a7d7f3ead76b4d92398b",
+      "head_sha": "20e75194b5e2696206b03c781e45f52d6eea78b7",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114288668048,
+          "id": 114297719312,
           "name": "validate",
           "status": "completed",
           "conclusion": "success"
         }
       ],
-      "note": "Independently observed parent S011 registration merged-main before S012 parent status PR; no self-certification of future S012 registration."
+      "note": "Verified previous P001-S012 parent registration, NOT future parent S013 PR or push"
     }
   ],
-  "previous_registration_receipt": "sessions/P001-S011/REGISTRATION.md",
-  "outgoing_parent_commit_evidence": "Parent S012 status PR final-head and merged-main jobs must be observed AFTER this record is staged; this content does not certify future CI.",
-  "registration_kind": "P001_S012_PAIR_ONLY_QUANTITATIVE_SUBLEMMA_STATUS_ONLY",
+  "previous_registration_receipt": "sessions/P001-S012/REGISTRATION.md",
+  "outgoing_parent_commit_evidence": "New S013 parent PR-head and merged-main push runs/jobs must be independently checked AFTER this status-only commit; no self-certification.",
+  "registration_kind": "P001_S013_RESTRICTED_PROTECTED_A0_JOINT_CERTIFICATE_STATUS_ONLY",
   "approved_next_child_handoff": {
-    "session": "P001-S013",
-    "objective": "PAIR_ROBUST_SINGLETON_EMPTY_SELECTION",
-    "approved": "AUTONOMOUS_METHOD_SELECTION_ONLY",
+    "session": "P001-S014",
+    "objective": "UNPROTECTED_HUB_JOINT_PAIR_CLASS_SELECTION",
+    "approved": "AUTONOMOUS_SINGLE_METHOD_PROOF_FIRST",
     "executed": false
   }
 }
