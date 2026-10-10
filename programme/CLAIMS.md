@@ -10,3 +10,5 @@
 
 Correctness, novelty, formal status, and publication status are different dimensions.
 
+
+P001-S001 registration: the child records a mechanism counterexample and an unproved sufficient averaging obligation, not an extraction theorem. New theorem, formal verification and publication counts remain zero. Detailed argument and scope limits are in child research/R3_FEASIBILITY.md at the registered commit.

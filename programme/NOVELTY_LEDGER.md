@@ -13,3 +13,5 @@
 
 Detailed theorem locations, parameter comparisons, search limitations and evidence levels are authoritative in the registered child's research/SOURCES.json, FRONTIER_AUDIT.md, SEARCH_LOG.md and NOVELTY_LEDGER.md at the commit in P001_REGISTRATION.json. A source-posed question and an independently confirmed current open theorem are deliberately distinguished.
 
+
+- N008, P001-S001: verified child focused N1 still leaves exact R3 STATUS_UNCERTAIN. Standard transversal construction rejects constant repair of arbitrary largest good palettes; no new extraction theorem or R3 refutation. L_AVG is an unproved sufficient condition, not a promoted original result. N2 and independent mathematical scrutiny remain pending for any achieved theorem.

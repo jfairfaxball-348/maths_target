@@ -12,3 +12,5 @@
 - D008: child freezes exactly one successor R3, rank-three all-m internal link-matching retention feasibility with a prior-art gate. Rank-specific status remains uncertain, and paper-worthiness is conditional. Do not start that investigation in the bootstrap session or quietly replace the source target.
 
 
+
+- D009, P001-S001 status registration only: re-fetched child merge 8a9f3a29944da6386c0fa813e42b7bdaa802ed62, PR #2 and successful final-head/main jobs; propagate the bounded mechanism-obstruction outcome and single unexecuted S002 L_AVG obligation. No new mathematical conclusion is established by the parent and parent S001 is not executed. Preserve all source, novelty and formalisation limits; no headline or ladder pivot.

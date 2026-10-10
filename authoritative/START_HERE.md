@@ -4,3 +4,5 @@
 
 P001-S000 added a separately verified [child registration receipt](../programme/P001_REGISTRATION.json) and [registration closeout](../sessions/P001-S000/REGISTRATION.md). Read both before interpreting historical S000 no-child/proposed-name statements. Parent programme S001 remains unexecuted; the child owns the pending P001-S001 mathematical session.
 
+
+Latest status: [P001-S001 registration](../sessions/P001-S001/REGISTRATION.md), with the updated verified receipt. Child P001-S001 is complete; child P001-S002 L_AVG and parent programme S001 remain unexecuted. Historical S000 wording above is preserved as history.
