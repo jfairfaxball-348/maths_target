@@ -38,3 +38,6 @@ Child S008 false single-hub HUB_RES density statement, with parametric multi-com
 
 ## Child P001-S009 verified auxiliary scope (status only)
 THIN_Q induced heavy-load<=m density normalisation refuted on mixed-core K_q all-valid packing (q arbitrary, fixed m>=3). BSEL/two-heavy BSEL/R3/original TIK theorem NOT proved/refuted; formalisation NOT_STARTED, novelty UNCERTAIN, publication IDEA. S010 tenth-substantive audit and new bounded private-light compatibility gate unexecuted; programme S001 unexecuted.
+
+## P001-S010 verified status-only child registration
+S010 completed mandatory tenth-substantive correction/strategy audit and parametrically refuted only the SAT_CROSS cross-hub saturation helper: heavy loads, pair-codegrees and empty m-matching fail to certify the singleton residual m-matching. Its mixed-kernel private-light packing admits >half-density valid whole blocks, so unrestricted/private-light BSEL, R3 and full every-fixed-k TIK remain unproved/not refuted. No novel paper theorem, independent maths review, formalisation or publication; parent mathematical S001 NOT executed. [Receipt](P001_REGISTRATION.json) verifies child merged commit and actual PR/main CI. S011 is future-only.
