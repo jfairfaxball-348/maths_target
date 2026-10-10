@@ -10,3 +10,7 @@ P001-S001 is the first bounded substantive child analysis. Its failed universal 
 ## P001-S004 registration
 
 S004 child performed early correction by retiring two overstrong proposed auxiliary routes; no original theorem/Lean/publication count advanced. Child P001-S005 will be the fifth substantive session and must execute mandatory progress/correction review **only after explicit invocation**; it is not performed by this parent registration.
+
+## P001-S005 mandatory fifth substantive child audit — registered
+
+Confirmed child S001–S005 audit excludes S000 bootstrap, maps evidence against claims and failed assumptions, preserves sparse bound, retires exact L_AVG/B_CHARGE under provisional self-review, compares bounded N1, validates experiment/CI integrity and concludes there is no defensible autonomous next mathematical obligation. Human A/B/C choice required. Parent programme S001 STILL unexecuted and parent's own fifth-session cadence unaffected.
