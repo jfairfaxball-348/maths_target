@@ -17,3 +17,7 @@ Child P001-S002 completed: L_AVG only partially controlled for m-sunflower-free 
 ## P001-S003 verified registration
 
 Child P001-S003 frozen B_CHARGE and discovered an explicit symbolic asymptotic counterexample to the project's auxiliary L_AVG, **not** to R3/TIK. Original F_t is internally valid; expected same-palette capacity/|F_t| tends to zero. Independent mathematical scrutiny remains pending. No positive extraction theorem, Lean, paper or novelty claim; child S004 is a bounded audit/route-decision only and unexecuted. Parent S001 remains unexecuted. Verified child PR #4/main workflow receipt in P001_REGISTRATION.json.
+
+## P001-S004 verified child audit/decision
+
+The exact L_AVG expectation and B_CHARGE allocation are formally RETIRED after a **PROVISIONAL_ANALYTICALLY_SUPPORTED** same-assistant challenge of their tripartite obstruction. The project did not obtain independent mathematical review and did not prove a positive R3 extraction result or refute TIK. P001 remains INVESTIGATING, full programme unchanged; fifth substantive child session S005 is a prepared progress/correction and governed route assessment, not executed. Parent programme S001 not executed.

@@ -13,3 +13,7 @@ P001 remains INVESTIGATING / NOVELTY_UNCERTAIN / NOT_STARTED formalisation / IDE
 ## P001-S003 registration
 
 Child S003 disproves its project-origin L_AVG auxiliary random-colour expectation and heavy-link collision charge (same-assistant symbolic derivation, pending independent scrutiny), not the source-posed internal extraction objective. P001 remains INVESTIGATING / NOVELTY_UNCERTAIN / NOT_STARTED / IDEA. No manuscript exists. S004 is audit/route decision only, not executed.
+
+## P001-S004 verified registration
+
+Child S004 is an adversarial assistant self-audit and decision to retire its exact L_AVG/B_CHARGE universal proof routes. No independently reviewed theorem, R3/TIK counterexample, positive extraction, Lean, manuscript or submission. P001 remains INVESTIGATING / NOVELTY_UNCERTAIN / NOT_STARTED / IDEA. S005 is the sole prepared five-session correction audit, not executed. Verified child main/CI in P001_REGISTRATION.json.
