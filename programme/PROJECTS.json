@@ -10,17 +10,17 @@
       "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
       "status": "INVESTIGATING",
       "objective": "2026 JJSW Section 6 internal-kernel quantitative extraction question",
-      "verified_commit": "ba1483bc46c5e51d60774d93cada49b248bcff4e",
+      "verified_commit": "3a7e0f00830345e64fd5efb52cf4623a590d6a58",
       "verification_receipt": "programme/P001_REGISTRATION.json",
       "manifest_path": "project_manifest.json",
       "open_status": "STRONG_EVIDENCE_OPEN",
       "novelty_status": "NOVELTY_UNCERTAIN",
       "formal_status": "NOT_STARTED",
       "publication_status": "IDEA",
-      "next_obligation": "P001-S004 L_AVG_COUNTEREXAMPLE_INDEPENDENT_AUDIT: bounded proof challenge and method retirement decision only, not executed",
+      "next_obligation": "P001-S005 FIVE_SESSION_PROGRESS_CORRECTION_AND_ROUTE_TRIAGE: mandatory fifth-session audit and human-governed route assessment; not executed",
       "next_executed": false,
-      "last_child_session": "P001-S003",
-      "session_outcome": "NO_GENERAL_PROGRESS_L_AVG_REFUTED"
+      "last_child_session": "P001-S004",
+      "session_outcome": "NO_GENERAL_R3_PROGRESS_L_AVG_B_CHARGE_RETIRED"
     }
   ],
   "planned": []

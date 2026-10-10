@@ -16,3 +16,7 @@
 - D009, P001-S001 status registration only: re-fetched child merge 8a9f3a29944da6386c0fa813e42b7bdaa802ed62, PR #2 and successful final-head/main jobs; propagate the bounded mechanism-obstruction outcome and single unexecuted S002 L_AVG obligation. No new mathematical conclusion is established by the parent and parent S001 is not executed. Preserve all source, novelty and formalisation limits; no headline or ladder pivot.
 
 - D010, P001-S002 status registration only: independently inspect child PR #3, immutable main and successful final-head/main CI; propagate restricted-case bound and unresolved general route to parent. Register P001-S003 charging feasibility as unexecuted, maintain SUN champion and parent S001 unexecuted. No mathematical parent session or target substitution.
+
+## P001-S004 metadata decision (status only)
+
+Observe merged child PR #5, child main 3a7e0f00830345e64fd5efb52cf4623a590d6a58 and exact-head/main hosted successful jobs. Record child D022 retirement of exact universal L_AVG/B_CHARGE; preserve independent-proof-audit pending label and unchanged headline. Do NOT execute parent programme S001 or child S005. Receipt and status only, no mathematical programme route choice at parent level.

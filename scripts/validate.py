@@ -42,7 +42,8 @@ def check_registration(state, projects, receipt):
     expected_successors = {"P001-S000": ("P001-S001", ["R3"]),
                            "P001-S001": ("P001-S002", ["L_AVG"]),
                            "P001-S002": ("P001-S003", ["L_AVG_HEAVY_LINK_CHARGING"]),
-                           "P001-S003": ("P001-S004", ["L_AVG_COUNTEREXAMPLE_INDEPENDENT_AUDIT"])}
+                           "P001-S003": ("P001-S004", ["L_AVG_COUNTEREXAMPLE_INDEPENDENT_AUDIT"]),
+                           "P001-S004": ("P001-S005", ["FIVE_SESSION_PROGRESS_CORRECTION_AND_ROUTE_TRIAGE"])}
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]
@@ -70,6 +71,19 @@ def check_registration(state, projects, receipt):
         assert audit["auxiliary_L_AVG_status"] == "COUNTEREXAMPLE_ON_PAPER_INDEPENDENT_REVIEW_PENDING"
         assert not audit["R3_TIK_refuted"]
         assert project["last_child_session"] == "P001-S003"
+        assert child["final_head_validation"]
+        for checked in child["final_head_validation"]:
+            assert checked["head_sha"] == child["merged_pr"]["head_sha"]
+            assert checked["conclusion"] == "success" and checked["jobs"]
+            assert all(j["conclusion"] == "success" for j in checked["jobs"])
+    if receipt["session"] == "P001-S004":
+        assert audit["session_outcome"] == "NO_GENERAL_R3_PROGRESS_L_AVG_B_CHARGE_RETIRED"
+        assert audit["r3_literature_status"] == "STATUS_UNCERTAIN"
+        assert audit["auxiliary_L_AVG_status"] == "PROVISIONAL_ANALYTICALLY_SUPPORTED_COUNTEREXAMPLE_ROUTE_RETIRED"
+        assert audit["heavy_link_B_CHARGE"] == "PROVISIONAL_ANALYTICALLY_SUPPORTED_COUNTEREXAMPLE_ROUTE_RETIRED"
+        assert audit["independent_mathematical_review"] is False
+        assert audit["R3_TIK_refuted"] is False
+        assert project["last_child_session"] == "P001-S004"
         assert child["final_head_validation"]
         for checked in child["final_head_validation"]:
             assert checked["head_sha"] == child["merged_pr"]["head_sha"]

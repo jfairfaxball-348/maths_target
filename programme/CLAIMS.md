@@ -16,3 +16,5 @@ P001-S001 registration: the child records a mechanism counterexample and an unpr
 P001-S002 status registration: the child proves only an elementary bound for aggregate palette capacity when F has **no** m-sunflower; arbitrary F retains unresolved L_AVG. No claimed R3 extraction theorem, algorithm, Lean proof, novelty or publication; count remains zero.
 
 P001-S003 status registration: fixed M=288m partitioned L_AVG expectation is **refuted by a symbolic asymptotic tripartite family** as an internal auxiliary mechanism, with independent mathematical scrutiny pending. Frozen B_CHARGE likewise fails; no R3/TIK counterexample or positive extraction theorem is claimed. Programme mathematical result count remains zero; source-posed headline unchanged.
+
+P001-S004 verified child audit: no mathematical flaw found in symbolic auxiliary L_AVG/B_CHARGE counterexample, but this remains PROVISIONAL_ANALYTICALLY_SUPPORTED without independent proof reviewer. Exact routes RETIRED, not R3/TIK refutation. No new theorem, formal proof, publication or algorithm claim.
