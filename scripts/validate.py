@@ -45,6 +45,7 @@ def check_registration(state, projects, receipt):
                            "P001-S003": ("P001-S004", ["L_AVG_COUNTEREXAMPLE_INDEPENDENT_AUDIT"]),
                            "P001-S004": ("P001-S005", ["FIVE_SESSION_PROGRESS_CORRECTION_AND_ROUTE_TRIAGE"]),
                            "P001-S005": ("P001-S006", ["HUMAN_PROGRAMME_DECISION_REQUIRED"])}
+    expected_successors["P001-S006"] = ("P001-S007", ["HUMAN_BLOCK_COMPATIBILITY_DECISION_GATE"])
     if receipt.get("registration_kind") == "P001_S006_APPROVAL_ONLY":
         # Last substantive session remains S005; administrative approval changes its sole unexecuted successor.
         assert receipt["session"] == "P001-S005"
@@ -57,6 +58,12 @@ def check_registration(state, projects, receipt):
         assert audit["owner_decision_resolved_after_s005"] is True
         assert audit["new_mathematical_session_executed"] is False
         assert (ROOT / "sessions/P001-S006/APPROVAL_REGISTRATION.md").is_file()
+    if receipt["session"] == "P001-S006":
+        assert receipt["registration_kind"] == "P001_S006_SUBSTANTIVE_RESTRICTED_ONLY"
+        assert receipt["independent_registration_verification"]["session_outcome"] == "RESTRICTED_BSEL_ONLY"
+        assert receipt["independent_registration_verification"]["bsel_universal_proved"] is False
+        assert receipt["independent_registration_verification"]["independent_mathematical_review"] is False
+        assert (ROOT / "sessions/P001-S006/REGISTRATION.md").is_file()
     expected_session, expected_objectives = expected_successors[receipt["session"]]
     assert next_step["session"] == expected_session and next_step["objectives"] == expected_objectives
     assert state["last_registry_update"] == receipt["session"]
@@ -115,6 +122,10 @@ def check_registration(state, projects, receipt):
             assert checked["head_sha"] == child["merged_pr"]["head_sha"]
             assert checked["conclusion"] == "success" and checked["jobs"]
             assert all(j["conclusion"] == "success" for j in checked["jobs"])
+    if receipt["session"] == "P001-S006":
+        assert project["last_child_session"] == "P001-S006"
+        assert audit["r3_literature_status"] == "STATUS_UNCERTAIN" and not audit["R3_TIK_refuted"]
+        assert child["final_head_validation"] and all(x["head_sha"] == child["merged_pr"]["head_sha"] and x["conclusion"] == "success" for x in child["final_head_validation"])
     assert next_step["open_status"] == "STATUS_UNCERTAIN"
     assert not next_step["executed"] and not project["next_executed"]
     assert not receipt["parent_programme_session_executed"]

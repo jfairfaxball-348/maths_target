@@ -29,3 +29,6 @@ Child S005 required fifth-substantive-session progress/correction audit is compl
 ## Owner-approved P001-S006 handoff registered, NOT executed
 
 Route A now explicitly approved: one bounded BSEL sunflower-block compatibility feasibility gate with mandatory source-first N1, to be run only when the owner invokes the full prompt in another session. The child staged the handoff under PR #7, merged-main CI independently successful. S005 remains last completed and S001 parent research remains unexecuted. Exact L_AVG/B_CHARGE retired, original TIK/R3 and all SUN milestones unchanged. No mathematical theorem, Lean, N2, manuscript or new algorithm.
+
+## P001-S006 independent child registration
+Child S006 performed one bounded block-compatibility source and symbolic analysis, resulting **C—RESTRICTED_BSEL_ONLY** (elementary vertex-disjoint block-support gamma=1, no originality claim). Arbitrary BSEL still UNPROVED, R3 literature STATUS_UNCERTAIN and full TIK unchanged. No mathematically independent scrutiny, N2, Lean, paper or algorithm. Verified merged child commit and CI in [P001 receipt](P001_REGISTRATION.json). Child S007 only human A/B/C decision gate; parent S001 not executed. Other milestones remain provisional.
