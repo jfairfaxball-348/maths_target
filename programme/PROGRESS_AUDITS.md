@@ -21,3 +21,6 @@ The administrative publication of a BSEL P001-S006 prompt after completed fifth-
 
 ## P001-S006 — sixth substantive child session registered
 Child S005 five-session correction audit remains complete and authoritative. This S006 source-first block-method check produced only a restricted elementary result and stopped at missing universal group-closure estimate. No new extraction theorem, independent reviewer or N2. S007 unexecuted human gate; child tenth-session strategic reassessment still due at S010 only if separately approved. Parent programme mathematical S001 still unexecuted, so parent cadence unchanged.
+
+## P001-S009 status registered
+Child ninth substantive session refutes only an overstrong high-hub low-load-thinning mechanism, preserving S007's genuine bounded-load bound and S008's disjoint hub refutation. Child S010 is due to execute both its one bounded new mathematical test and the tenth-substantive strategic/fifth-session correction review. S005 review remains historical authority. This parent status PR neither carries out S010 nor increments the parent's S000-only mathematical count.

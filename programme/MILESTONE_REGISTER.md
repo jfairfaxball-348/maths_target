@@ -35,3 +35,6 @@ Child S006 performed one bounded block-compatibility source and symbolic analysi
 
 ## P001-S008 independently checked status
 Child S008 false single-hub HUB_RES density statement, with parametric multi-component example where full whole-block union is internally valid including pair/singleton/empty kernels. This defeats only that auxiliary *sufficient proof technique*, not unrestricted BSEL/R3/TIK. P001 remains INVESTIGATING, source-posed TIK and headline SUN unchanged; no new result count, formal verification or publication. Next S009 two-heavy-vertex slice prepared only; parent S001 not executed. [Evidence](P001_REGISTRATION.json).
+
+## Child P001-S009 verified auxiliary scope (status only)
+THIN_Q induced heavy-load<=m density normalisation refuted on mixed-core K_q all-valid packing (q arbitrary, fixed m>=3). BSEL/two-heavy BSEL/R3/original TIK theorem NOT proved/refuted; formalisation NOT_STARTED, novelty UNCERTAIN, publication IDEA. S010 tenth-substantive audit and new bounded private-light compatibility gate unexecuted; programme S001 unexecuted.
