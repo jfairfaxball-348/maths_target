@@ -1,38 +1,38 @@
 {
   "schema_version": 1,
-  "session": "P001-S007",
+  "session": "P001-S008",
   "project_id": "P001",
   "observed_on": "2026-10-10",
   "parent": {
     "repository": "jfairfaxball-348/sunflower-structures-programme",
     "repository_id": 1412469441,
-    "starting_main": "565be68f1899935fe3177e940a95bdf726dc980c"
+    "starting_main": "b5a60592ce232afab26bb602f6b69d80e21e9ce2"
   },
   "child": {
     "repository": "jfairfaxball-348/sunflower-internal-kernel-extraction",
     "repository_id": 1412820282,
     "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
-    "main_commit": "f0417e8195f2cbfbc6d7e989329070d794dc2490",
-    "tree_sha": "dea39cb1d9fcdea168dccc0a6a9f7d5d586b389e",
+    "main_commit": "8bcacc71704ca6dbadc7a064f212f5864888114f",
+    "tree_sha": "ded75e08a1b2804f11427c1710ac9a622c4806aa",
     "manifest_path": "project_manifest.json",
     "merged_pr": {
-      "number": 9,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/9",
+      "number": 10,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/10",
       "merged": true,
-      "merged_at": "2026-10-10T17:03:19Z",
-      "head_sha": "90a0bf09be542cb273e5d84217b0dde8d00f53fd",
-      "merge_sha": "f0417e8195f2cbfbc6d7e989329070d794dc2490"
+      "merged_at": "2026-10-10T17:29:33Z",
+      "head_sha": "a4d34ebca84739b15e3ced318758cf42f8299251",
+      "merge_sha": "8bcacc71704ca6dbadc7a064f212f5864888114f"
     },
     "main_validation": {
-      "run_id": 38070169198,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38070169198",
+      "run_id": 38071956467,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38071956467",
       "event": "push",
-      "head_sha": "f0417e8195f2cbfbc6d7e989329070d794dc2490",
+      "head_sha": "8bcacc71704ca6dbadc7a064f212f5864888114f",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114265774477,
+          "id": 114271012320,
           "name": "validate",
           "status": "completed",
           "conclusion": "success",
@@ -58,15 +58,15 @@
     },
     "final_head_validation": [
       {
-        "run_id": 38070140522,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38070140522",
+        "run_id": 38071917049,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38071917049",
         "event": "pull_request",
-        "head_sha": "90a0bf09be542cb273e5d84217b0dde8d00f53fd",
+        "head_sha": "a4d34ebca84739b15e3ced318758cf42f8299251",
         "status": "completed",
         "conclusion": "success",
         "jobs": [
           {
-            "id": 114265693505,
+            "id": 114270892954,
             "name": "validate",
             "status": "completed",
             "conclusion": "success",
@@ -92,26 +92,26 @@
       }
     ],
     "last_completed_substantive_session": {
-      "session": "P001-S007",
-      "main_commit": "f0417e8195f2cbfbc6d7e989329070d794dc2490",
+      "session": "P001-S008",
+      "main_commit": "8bcacc71704ca6dbadc7a064f212f5864888114f",
       "merged_pr": {
-        "number": 9,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/9",
+        "number": 10,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/10",
         "merged": true,
-        "merged_at": "2026-10-10T17:03:19Z",
-        "head_sha": "90a0bf09be542cb273e5d84217b0dde8d00f53fd",
-        "merge_sha": "f0417e8195f2cbfbc6d7e989329070d794dc2490"
+        "merged_at": "2026-10-10T17:29:33Z",
+        "head_sha": "a4d34ebca84739b15e3ced318758cf42f8299251",
+        "merge_sha": "8bcacc71704ca6dbadc7a064f212f5864888114f"
       },
       "main_validation": {
-        "run_id": 38070169198,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38070169198",
+        "run_id": 38071956467,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38071956467",
         "event": "push",
-        "head_sha": "f0417e8195f2cbfbc6d7e989329070d794dc2490",
+        "head_sha": "8bcacc71704ca6dbadc7a064f212f5864888114f",
         "status": "completed",
         "conclusion": "success",
         "jobs": [
           {
-            "id": 114265774477,
+            "id": 114271012320,
             "name": "validate",
             "status": "completed",
             "conclusion": "success",
@@ -138,16 +138,16 @@
     }
   },
   "independent_registration_verification": {
-    "method": "Separately fetched child PR #9 final head 90a0bf09be542cb273e5d84217b0dde8d00f53fd with green PR Actions run 38070140522 validate 114265693505; merged child main f0417e8195f2cbfbc6d7e989329070d794dc2490 green push Actions run 38070169198 validate 114265774477. Inspected owner archived instruction, S007 math and governance. CI receipt is NOT independent mathematical peer review.",
+    "method": "Independently fetched child S008 final PR #10 exact head a4d34ebca84739b15e3ced318758cf42f8299251, successful PR Actions run 38071917049/job 114270892954; merge main 8bcacc71704ca6dbadc7a064f212f5864888114f, push Actions run 38071956467/job 114271012320 completed SUCCESS. Read S008 symbolic parametric construction and archived owner prompt. Hosted CI checks record integrity, NOT independent mathematical proof.",
     "verified_paths": [
-      "AGENTS.md",
+      "research/S008_HIGH_LOAD_RESERVOIR_ANALYSIS.md",
+      "sessions/P001-S008/INPUT.md",
+      "sessions/P001-S008/INPUT_MANIFEST.json",
+      "sessions/P001-S008/CLOSEOUT.md",
+      "sessions/P001-S008/ENTRY_EVIDENCE.json",
+      "sessions/NEXT_SESSION.md",
       "authoritative/STATE.json",
-      "project_manifest.json",
-      "research/S007_LOW_LOAD_REDUCTION.md",
-      "sessions/P001-S007/INPUT.md",
-      "sessions/P001-S007/INPUT_MANIFEST.json",
-      "sessions/P001-S007/CLOSEOUT.md",
-      "sessions/NEXT_SESSION.md"
+      "project_manifest.json"
     ],
     "mathematical_status": "SOURCE_POSED_CONJECTURE",
     "open_status": "STRONG_EVIDENCE_OPEN",
@@ -157,7 +157,7 @@
     "new_theorems": 0,
     "formal_verifications": 0,
     "publications": 0,
-    "session_outcome": "RESTRICTED_LOW_LOAD_BSEL_PROVED_NO_FULL_EXTRACTION",
+    "session_outcome": "SINGLE_HUB_HIGH_LOAD_RESERVOIR_REFUTED_BSEL_OPEN",
     "r3_literature_status": "STATUS_UNCERTAIN",
     "auxiliary_L_AVG_status": "PROVISIONAL_ANALYTICALLY_SUPPORTED_COUNTEREXAMPLE_ROUTE_RETIRED",
     "heavy_link_B_CHARGE": "PROVISIONAL_ANALYTICALLY_SUPPORTED_COUNTEREXAMPLE_ROUTE_RETIRED",
@@ -174,43 +174,45 @@
     "restricted_originality_claim": false,
     "n2_completed": false,
     "n1_deferred_by_owner": true,
-    "owner_policy": "PROOF_FIRST_TECHNICAL_METHOD_SELECTION_AUTONOMOUS_AND_PRIOR_ART_DEFERRED_UNTIL_COMPLETE_TIK_PROOF"
+    "owner_policy": "PROOF_FIRST_TECHNICAL_METHOD_SELECTION_AUTONOMOUS_AND_PRIOR_ART_DEFERRED_UNTIL_COMPLETE_TIK_PROOF",
+    "single_hub_reservoir_refuted": true,
+    "single_hub_counterexample_full_union_valid": true
   },
   "next_child_obligation": {
-    "session": "P001-S008",
+    "session": "P001-S009",
     "objectives": [
-      "HIGH_LOAD_VERTEX_RESERVOIR_COMPATIBILITY"
+      "TWO_HUB_MULTIPLICITY_SLICE"
     ],
     "open_status": "STATUS_UNCERTAIN",
     "executed": false,
-    "interpretation": "One bounded future technical proof session auto-chosen by assistant, not executed; no A/B/C decision needed, exact full TIK/R3/BSEL remain unproved."
+    "interpretation": "One bounded two-heavy-vertex block support theorem/countermechanism gate; S008 only refutes single-hub sufficient mechanism, not universal BSEL/R3/TIK."
   },
   "parent_programme_session_executed": false,
   "parent_registration_ci": [
     {
-      "run_id": 38067833372,
-      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38067833372",
+      "run_id": 38070362374,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38070362374",
       "event": "push",
-      "head_sha": "565be68f1899935fe3177e940a95bdf726dc980c",
+      "head_sha": "b5a60592ce232afab26bb602f6b69d80e21e9ce2",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114258997125,
+          "id": 114266337363,
           "name": "validate",
           "status": "completed",
           "conclusion": "success"
         }
       ],
-      "note": "Previous parent main success; outgoing parent PR/main checks to be observed externally."
+      "note": "Previous parent merged main; outgoing S008 parent head/main CI must be independently observed after PR/merge."
     }
   ],
-  "previous_registration_receipt": "sessions/P001-S006/REGISTRATION.md",
-  "outgoing_parent_commit_evidence": "Parent PR-head and main checks must be observed separately; this status-only commit cannot self-certify them.",
-  "registration_kind": "P001_S007_PROOF_FIRST_RESTRICTED_LOW_LOAD",
+  "previous_registration_receipt": "sessions/P001-S007/REGISTRATION.md",
+  "outgoing_parent_commit_evidence": "Parent S008 registration PR-head and merged-main checks must be observed after committing. This receipt cannot certify its own future checks.",
+  "registration_kind": "P001_S008_PROOF_FIRST_SINGLE_HUB_RESERVOIR_NEGATIVE",
   "approved_next_child_handoff": {
-    "session": "P001-S008",
-    "objective": "HIGH_LOAD_VERTEX_RESERVOIR_COMPATIBILITY",
+    "session": "P001-S009",
+    "objective": "TWO_HUB_MULTIPLICITY_SLICE",
     "approved": "AUTONOMOUS_METHOD_SELECTION_ONLY",
     "executed": false
   }
