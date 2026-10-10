@@ -12,4 +12,6 @@
 
 **Risks and pivots:** If full problem solved, reuse proof and seek actual unsolved structural/constructive question or valuable formalisation; if too hard, isolate a genuinely novel fixed-parameter theorem; if fully formalised/known, seek next frontier; if disproved, record counterexample and strongest corrected law; if no meaningful result, park P001 without fake publication. Separate authorisation required to create child repository. No external submissions.
 
+## P001-S002 registered update
 
+Child main `693a8b45dab8ebff773554c879756e797e9558e8` passed main Actions. Restricted sunflower-free L_AVG expectation >=573599/663552 is an elementary case, not a general theorem or novelty-promoted paper. Full L_AVG/R3 unresolved; next child P001-S003 is heavy-link collision charging only. Parent S001 has not run.

@@ -1,95 +1,59 @@
 {
   "schema_version": 1,
-  "session": "P001-S001",
+  "session": "P001-S002",
   "project_id": "P001",
   "observed_on": "2026-10-10",
   "parent": {
     "repository": "jfairfaxball-348/sunflower-structures-programme",
     "repository_id": 1412469441,
-    "starting_main": "4c6db56b9956eb745786f557fdfb15b4614c3af2"
+    "starting_main": "ded25d1aa5eec3a7ac08e7ef500218bbbddc8ba6"
   },
   "child": {
     "repository": "jfairfaxball-348/sunflower-internal-kernel-extraction",
     "repository_id": 1412820282,
     "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
-    "main_commit": "8a9f3a29944da6386c0fa813e42b7bdaa802ed62",
-    "tree_sha": "f520c1d7a709ee6aafe8cb971330b9b636cb59c8",
+    "main_commit": "693a8b45dab8ebff773554c879756e797e9558e8",
+    "tree_sha": "c51b90b384ddb810b00ac91b838229f96844a5ab",
     "manifest_path": "project_manifest.json",
     "merged_pr": {
-      "number": 2,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/2",
+      "number": 3,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/3",
       "merged": true,
-      "merged_at": "2026-10-10T13:34:57Z",
-      "head_sha": "3703e9dd8323bb93eb6c0ed2e5175e656a73d869",
-      "merge_sha": "8a9f3a29944da6386c0fa813e42b7bdaa802ed62"
+      "merged_at": "2026-10-10T13:54:21Z",
+      "head_sha": "13dc7962c6655352e9ad058916a361108421cbb6",
+      "merge_sha": "693a8b45dab8ebff773554c879756e797e9558e8"
     },
     "main_validation": {
-      "run_id": 38056271204,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38056271204",
+      "run_id": 38057524434,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38057524434",
       "event": "push",
-      "head_sha": "8a9f3a29944da6386c0fa813e42b7bdaa802ed62",
+      "head_sha": "693a8b45dab8ebff773554c879756e797e9558e8",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114225339017,
+          "id": 114228937181,
           "name": "validate",
           "status": "completed",
           "conclusion": "success",
           "steps": [
             {
-              "name": "Set up job",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 1
-            },
-            {
-              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 2
-            },
-            {
-              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 3
-            },
-            {
+              "number": 4,
               "name": "Validate records and exact target",
               "status": "completed",
-              "conclusion": "success",
-              "number": 4
+              "conclusion": "success"
             },
             {
+              "number": 5,
               "name": "Check internal and external semantics",
               "status": "completed",
-              "conclusion": "success",
-              "number": 5
+              "conclusion": "success"
             },
             {
+              "number": 6,
               "name": "Report checked commit",
               "status": "completed",
-              "conclusion": "success",
-              "number": 6
-            },
-            {
-              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 11
-            },
-            {
-              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 12
-            },
-            {
-              "name": "Complete job",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 13
+              "conclusion": "success"
             }
           ]
         }
@@ -97,144 +61,72 @@
     },
     "final_head_validation": [
       {
-        "run_id": 38056228718,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38056228718",
+        "run_id": 38057491973,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38057491973",
         "event": "pull_request",
-        "head_sha": "3703e9dd8323bb93eb6c0ed2e5175e656a73d869",
+        "head_sha": "13dc7962c6655352e9ad058916a361108421cbb6",
         "status": "completed",
         "conclusion": "success",
         "jobs": [
           {
-            "id": 114225212268,
+            "id": 114228844111,
             "name": "validate",
             "status": "completed",
             "conclusion": "success",
             "steps": [
               {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1
-              },
-              {
-                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2
-              },
-              {
-                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3
-              },
-              {
+                "number": 4,
                 "name": "Validate records and exact target",
                 "status": "completed",
-                "conclusion": "success",
-                "number": 4
+                "conclusion": "success"
               },
               {
+                "number": 5,
                 "name": "Check internal and external semantics",
                 "status": "completed",
-                "conclusion": "success",
-                "number": 5
+                "conclusion": "success"
               },
               {
+                "number": 6,
                 "name": "Report checked commit",
                 "status": "completed",
-                "conclusion": "success",
-                "number": 6
-              },
-              {
-                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 11
-              },
-              {
-                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 12
-              },
-              {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 13
+                "conclusion": "success"
               }
             ]
           }
         ]
       },
       {
-        "run_id": 38056225601,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38056225601",
-        "event": "push",
-        "head_sha": "3703e9dd8323bb93eb6c0ed2e5175e656a73d869",
+        "run_id": 38057391307,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38057391307",
+        "event": "pull_request",
+        "head_sha": "3cf6f348176579a23fb6b0fb5d095f5f91250dcc",
         "status": "completed",
         "conclusion": "success",
         "jobs": [
           {
-            "id": 114225203983,
+            "id": 114228553537,
             "name": "validate",
             "status": "completed",
             "conclusion": "success",
             "steps": [
               {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1
-              },
-              {
-                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2
-              },
-              {
-                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3
-              },
-              {
+                "number": 4,
                 "name": "Validate records and exact target",
                 "status": "completed",
-                "conclusion": "success",
-                "number": 4
+                "conclusion": "success"
               },
               {
+                "number": 5,
                 "name": "Check internal and external semantics",
                 "status": "completed",
-                "conclusion": "success",
-                "number": 5
+                "conclusion": "success"
               },
               {
+                "number": 6,
                 "name": "Report checked commit",
                 "status": "completed",
-                "conclusion": "success",
-                "number": 6
-              },
-              {
-                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 11
-              },
-              {
-                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 12
-              },
-              {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 13
+                "conclusion": "success"
               }
             ]
           }
@@ -243,7 +135,7 @@
     ]
   },
   "independent_registration_verification": {
-    "method": "Same assistant independently re-fetched the merged PR, live main and eight child files at the immutable merge, compared status/target/claims and inspected actual main and final-head workflow jobs. This is evidence verification, not independent mathematical scrutiny.",
+    "method": "Assistant separately fetched actual child merged PR/main, manifest/state/target/claims/formal/publication/handoff/analysis/source audits from immutable child merge; inspected child main and final-head hosted Jobs. This is evidence checking, NOT independent mathematical scrutiny.",
     "verified_paths": [
       "project_manifest.json",
       "authoritative/STATE.json",
@@ -252,16 +144,17 @@
       "formalisation/STATUS.json",
       "publication/STATUS.json",
       "sessions/NEXT_SESSION.md",
-      "research/R3_FEASIBILITY.md"
+      "research/L_AVG_FEASIBILITY.md",
+      "research/S002_N1.md"
     ],
     "verified_file_blobs": [
       {
         "path": "project_manifest.json",
-        "blob_sha": "5c5558776298510a66f843163ddac09ce21fcf45"
+        "blob_sha": "7e83386978299ba3520c684943aaa126865263a0"
       },
       {
         "path": "authoritative/STATE.json",
-        "blob_sha": "5424cd527a89de7a78c3f1dd2cd35d340b952605"
+        "blob_sha": "68e58021c79f32f950a59c87777ce521b03182ad"
       },
       {
         "path": "research/TARGET.json",
@@ -269,7 +162,7 @@
       },
       {
         "path": "research/CLAIMS.json",
-        "blob_sha": "2d9518528beb5b8d9216bf418dc84ee6db706cf2"
+        "blob_sha": "67d82186dc4bae29f4cf593f0ccb03e951369cc4"
       },
       {
         "path": "formalisation/STATUS.json",
@@ -281,11 +174,15 @@
       },
       {
         "path": "sessions/NEXT_SESSION.md",
-        "blob_sha": "d60bc2bbe329c0d4af82f4d1aa1bef52795667cd"
+        "blob_sha": "65ef38eb0d2be08770d3273aadf6af8fe579ebbd"
       },
       {
-        "path": "research/R3_FEASIBILITY.md",
-        "blob_sha": "17e5bbbfed474d9f86acd9230b0b64fd3d44fc04"
+        "path": "research/L_AVG_FEASIBILITY.md",
+        "blob_sha": "d2c744a3ba91e1cda7c6d6435a4a16af509a3422"
+      },
+      {
+        "path": "research/S002_N1.md",
+        "blob_sha": "b21b5245310152dd65f51a51a0396025251641a5"
       }
     ],
     "mathematical_status": "SOURCE_POSED_CONJECTURE",
@@ -296,13 +193,13 @@
     "new_theorems": 0,
     "formal_verifications": 0,
     "publications": 0,
-    "session_outcome": "MECHANISM_OBSTRUCTION_AND_REMAINING_LEMMA",
+    "session_outcome": "RESTRICTED_SUNFLOWER_FREE_BOUND_GENERAL_L_AVG_UNRESOLVED",
     "r3_literature_status": "STATUS_UNCERTAIN"
   },
   "next_child_obligation": {
-    "session": "P001-S002",
+    "session": "P001-S003",
     "objectives": [
-      "L_AVG"
+      "L_AVG_HEAVY_LINK_CHARGING"
     ],
     "open_status": "STATUS_UNCERTAIN",
     "executed": false
@@ -310,37 +207,19 @@
   "parent_programme_session_executed": false,
   "parent_registration_ci": [
     {
-      "run_id": 38056434665,
-      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38056434665",
+      "run_id": 38057728537,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38057728537",
       "event": "pull_request",
-      "head_sha": "a34f2eae38d28480a34f823559a773291dc3ef26",
+      "head_sha": "8a89c7feb2268aeefed227f6392a1c87135d0cbd",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114225805392,
+          "id": 114229523592,
           "name": "validate",
           "status": "completed",
           "conclusion": "success",
           "steps": [
-            {
-              "name": "Set up job",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 1
-            },
-            {
-              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 2
-            },
-            {
-              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 3
-            },
             {
               "name": "Run python3 scripts/validate.py",
               "status": "completed",
@@ -352,186 +231,13 @@
               "status": "completed",
               "conclusion": "success",
               "number": 5
-            },
-            {
-              "name": "Report checked commit",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 6
-            },
-            {
-              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 11
-            },
-            {
-              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 12
-            },
-            {
-              "name": "Complete job",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 13
             }
           ]
         }
-      ]
-    },
-    {
-      "run_id": 38056432935,
-      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38056432935",
-      "event": "push",
-      "head_sha": "a34f2eae38d28480a34f823559a773291dc3ef26",
-      "status": "completed",
-      "conclusion": "success",
-      "jobs": [
-        {
-          "id": 114225800435,
-          "name": "validate",
-          "status": "completed",
-          "conclusion": "success",
-          "steps": [
-            {
-              "name": "Set up job",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 1
-            },
-            {
-              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 2
-            },
-            {
-              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 3
-            },
-            {
-              "name": "Run python3 scripts/validate.py",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 4
-            },
-            {
-              "name": "Run python3 -m unittest discover -s tests -v",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 5
-            },
-            {
-              "name": "Report checked commit",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 6
-            },
-            {
-              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 11
-            },
-            {
-              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 12
-            },
-            {
-              "name": "Complete job",
-              "status": "completed",
-              "conclusion": "success",
-              "number": 13
-            }
-          ]
-        }
-      ]
+      ],
+      "checkout_semantics": "First checked parent registration PR head; later outgoing head and merge checked externally"
     }
   ],
-  "previous_registration_receipt": "sessions/P001-S000/REGISTRATION_RECEIPT.json",
-  "outgoing_parent_commit_evidence": "Containing commit cannot name itself. The subsequent final-head/main checks are verified from GitHub and reported in the S001 response.",
-  "parent_entry_ci": {
-    "run_id": 38031139011,
-    "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38031139011",
-    "event": "push",
-    "head_sha": "4c6db56b9956eb745786f557fdfb15b4614c3af2",
-    "status": "completed",
-    "conclusion": "success",
-    "jobs": [
-      {
-        "id": 114152152412,
-        "name": "validate",
-        "status": "completed",
-        "conclusion": "success",
-        "steps": [
-          {
-            "name": "Set up job",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 1
-          },
-          {
-            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 2
-          },
-          {
-            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 3
-          },
-          {
-            "name": "Run python3 scripts/validate.py",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 4
-          },
-          {
-            "name": "Run python3 -m unittest discover -s tests -v",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 5
-          },
-          {
-            "name": "Report checked commit",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 6
-          },
-          {
-            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 11
-          },
-          {
-            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 12
-          },
-          {
-            "name": "Complete job",
-            "status": "completed",
-            "conclusion": "success",
-            "number": 13
-          }
-        ]
-      }
-    ]
-  },
-  "parent_registration_pr": {
-    "number": 3,
-    "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/pull/3",
-    "state_at_observation": "OPEN",
-    "head_at_first_validation": "a34f2eae38d28480a34f823559a773291dc3ef26"
-  }
+  "previous_registration_receipt": "sessions/P001-S001/REGISTRATION_RECEIPT.json",
+  "outgoing_parent_commit_evidence": "Subsequent PR/main checks must be observed externally; receipt cannot embed its own commit hash."
 }
