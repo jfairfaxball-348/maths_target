@@ -8,19 +8,21 @@
       "slug": "sunflower-internal-kernel-extraction",
       "repository_id": 1412820282,
       "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
-      "status": "INVESTIGATING_HUMAN_DECISION_PENDING",
+      "status": "INVESTIGATING_S006_APPROVED_UNEXECUTED",
       "objective": "2026 JJSW Section 6 internal-kernel quantitative extraction question",
-      "verified_commit": "79fbbbc35fec42fdde0ada766f892ab83090615c",
+      "verified_commit": "76a4b8a3659adc8c10615f35717f1d2e6efbc1b4",
       "verification_receipt": "programme/P001_REGISTRATION.json",
       "manifest_path": "project_manifest.json",
       "open_status": "STRONG_EVIDENCE_OPEN",
       "novelty_status": "NOVELTY_UNCERTAIN",
       "formal_status": "NOT_STARTED",
       "publication_status": "IDEA",
-      "next_obligation": "P001-S006 HUMAN_PROGRAMME_DECISION_REQUIRED: select A new R3 method, B source-attributed all-m rank-three subclass, or C pause P001; NO automatic mathematical pivot",
+      "next_obligation": "P001-S006 BLOCK_COMPATIBILITY_FEASIBILITY_GATE: owner-approved Route A BSEL candidate, source-first bounded feasibility, execution only on fresh invocation",
       "next_executed": false,
       "last_child_session": "P001-S005",
-      "session_outcome": "FIVE_SESSION_AUDIT_NO_APPROVED_SURVIVING_R3_ROUTE"
+      "session_outcome": "FIVE_SESSION_AUDIT_NO_APPROVED_SURVIVING_R3_ROUTE",
+      "approved_method": "SUNFLOWER_BLOCK_COMPATIBILITY",
+      "approval_receipt": "programme/P001_REGISTRATION.json"
     }
   ],
   "planned": []

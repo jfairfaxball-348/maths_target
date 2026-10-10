@@ -25,3 +25,7 @@ The exact L_AVG expectation and B_CHARGE allocation are formally RETIRED after a
 ## P001-S005 verified status-only registration
 
 Child S005 required fifth-substantive-session progress/correction audit is complete. No viable authorised bounded next proof objective survived the exact L_AVG/B_CHARGE retirement; no N1-attributable publishable subclass was selected. P001 is **INVESTIGATING / HUMAN_PROGRAMME_DECISION_REQUIRED** pending owner A new R3 route, B original all-m R3 subclass after a source gate, or C pause P001. No source-posed TIK or SUN target change; no positive theorem, Lean proof, paper, N2, algorithm or independent scrutiny. P001-S006 is an unexecuted decision-only handoff, not a mathematics session. Parent S001 remains unexecuted.
+
+## Owner-approved P001-S006 handoff registered, NOT executed
+
+Route A now explicitly approved: one bounded BSEL sunflower-block compatibility feasibility gate with mandatory source-first N1, to be run only when the owner invokes the full prompt in another session. The child staged the handoff under PR #7, merged-main CI independently successful. S005 remains last completed and S001 parent research remains unexecuted. Exact L_AVG/B_CHARGE retired, original TIK/R3 and all SUN milestones unchanged. No mathematical theorem, Lean, N2, manuscript or new algorithm.

@@ -6,33 +6,33 @@
   "parent": {
     "repository": "jfairfaxball-348/sunflower-structures-programme",
     "repository_id": 1412469441,
-    "starting_main": "595afbb69c9769bb4bec25afd36bc408048069f3"
+    "starting_main": "c1c9aa6a0d36e4dc4170713ada36453fa21757a5"
   },
   "child": {
     "repository": "jfairfaxball-348/sunflower-internal-kernel-extraction",
     "repository_id": 1412820282,
     "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
-    "main_commit": "79fbbbc35fec42fdde0ada766f892ab83090615c",
-    "tree_sha": "8b7b1c27ac5b8053f81360735a8b23216e5ad8b3",
+    "main_commit": "76a4b8a3659adc8c10615f35717f1d2e6efbc1b4",
+    "tree_sha": "17e1553c07b8bbb49c2fed15a56af3d23717648f",
     "manifest_path": "project_manifest.json",
     "merged_pr": {
-      "number": 6,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/6",
+      "number": 7,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/7",
       "merged": true,
-      "merged_at": "2026-10-10T15:35:58Z",
-      "head_sha": "952dfc645c7cff850f8ffdc0308aaaf17f0637cd",
-      "merge_sha": "79fbbbc35fec42fdde0ada766f892ab83090615c"
+      "merged_at": "2026-10-10T15:53:42Z",
+      "head_sha": "9b1a3fde0ffb9332633386031eb9ff75904fc8a7",
+      "merge_sha": "76a4b8a3659adc8c10615f35717f1d2e6efbc1b4"
     },
     "main_validation": {
-      "run_id": 38064265353,
-      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38064265353",
+      "run_id": 38065454455,
+      "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38065454455",
       "event": "push",
-      "head_sha": "79fbbbc35fec42fdde0ada766f892ab83090615c",
+      "head_sha": "76a4b8a3659adc8c10615f35717f1d2e6efbc1b4",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114248605274,
+          "id": 114252051100,
           "name": "validate",
           "status": "completed",
           "conclusion": "success",
@@ -58,15 +58,15 @@
     },
     "final_head_validation": [
       {
-        "run_id": 38064241407,
-        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38064241407",
+        "run_id": 38065432905,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38065432905",
         "event": "pull_request",
-        "head_sha": "952dfc645c7cff850f8ffdc0308aaaf17f0637cd",
+        "head_sha": "9b1a3fde0ffb9332633386031eb9ff75904fc8a7",
         "status": "completed",
         "conclusion": "success",
         "jobs": [
           {
-            "id": 114248536077,
+            "id": 114251989462,
             "name": "validate",
             "status": "completed",
             "conclusion": "success",
@@ -90,21 +90,64 @@
           }
         ]
       }
-    ]
+    ],
+    "last_completed_substantive_session": {
+      "session": "P001-S005",
+      "main_commit": "79fbbbc35fec42fdde0ada766f892ab83090615c",
+      "merged_pr": {
+        "number": 6,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/pull/6",
+        "merged": true,
+        "merged_at": "2026-10-10T15:35:58Z",
+        "head_sha": "952dfc645c7cff850f8ffdc0308aaaf17f0637cd",
+        "merge_sha": "79fbbbc35fec42fdde0ada766f892ab83090615c"
+      },
+      "main_validation": {
+        "run_id": 38064265353,
+        "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction/actions/runs/38064265353",
+        "event": "push",
+        "head_sha": "79fbbbc35fec42fdde0ada766f892ab83090615c",
+        "status": "completed",
+        "conclusion": "success",
+        "jobs": [
+          {
+            "id": 114248605274,
+            "name": "validate",
+            "status": "completed",
+            "conclusion": "success",
+            "steps": [
+              {
+                "number": 4,
+                "name": "Validate records and exact target",
+                "conclusion": "success"
+              },
+              {
+                "number": 5,
+                "name": "Check internal and external semantics",
+                "conclusion": "success"
+              },
+              {
+                "number": 6,
+                "name": "Report checked commit",
+                "conclusion": "success"
+              }
+            ]
+          }
+        ]
+      }
+    }
   },
   "independent_registration_verification": {
-    "method": "Separately queried live child merged PR #6 exact head 952dfc..., verified merge sha 79fbbbc..., successful exact-head run 38064241407/validate job 114248536077 and merged-main run 38064265353/validate job 114248605274. Inspected child main STATE, manifest, S005 correction audit, S005 N1 triage, closeout and decision-only S006 handoff. This verifies repository/CI evidence, NOT independent mathematical proof.",
+    "method": "Independently checked child staging PR #7 exact head 9b1a3fde... (success run 38065432905/job 114251989462), merged child main 76a4b8a3659adc8c10615f35717f1d2e6efbc1b4 (success run 38065454455/job 114252051100), confirmed approved complete S006 handoff, APPROVAL_MANIFEST/hash and unchanged child session_completed=S005. The retained audit session_outcome describes the previously completed S005 substantive research. This is repository status verification, NOT independent mathematical review.",
     "verified_paths": [
       "authoritative/STATE.json",
       "project_manifest.json",
-      "research/S005_PROGRESS_CORRECTION_AUDIT.md",
-      "research/S005_N1_TRIAGE.md",
-      "research/CLAIMS.json",
-      "research/NOVELTY_LEDGER.md",
+      "sessions/NEXT_SESSION.md",
+      "sessions/P001-S006/APPROVED_DRAFT.md",
+      "sessions/P001-S006/APPROVAL_MANIFEST.json",
+      "sessions/P001-S006/OWNER_APPROVAL.md",
       "research/DECISIONS_AND_RISKS.md",
-      "sessions/P001-S005/INPUT_MANIFEST.json",
-      "sessions/P001-S005/CLOSEOUT.md",
-      "sessions/NEXT_SESSION.md"
+      "scripts/validate.py"
     ],
     "mathematical_status": "SOURCE_POSED_CONJECTURE",
     "open_status": "STRONG_EVIDENCE_OPEN",
@@ -121,37 +164,57 @@
     "independent_mathematical_review": false,
     "R3_TIK_refuted": false,
     "human_decision_required": true,
-    "new_mathematical_candidate_promoted": false
+    "new_mathematical_candidate_promoted": false,
+    "owner_decision_resolved_after_s005": true,
+    "approved_next_route": "A_CONTINUE_R3_NEW_APPROACH",
+    "new_mathematical_session_executed": false
   },
   "next_child_obligation": {
     "session": "P001-S006",
     "objectives": [
-      "HUMAN_PROGRAMME_DECISION_REQUIRED"
+      "BLOCK_COMPATIBILITY_FEASIBILITY_GATE"
     ],
     "open_status": "STATUS_UNCERTAIN",
     "executed": false,
-    "interpretation": "Decision-only successor: owner must choose A new R3 route, B source-attributed all-m R3 subclass, or C pause P001 and defer programme choice to parent. No route automatically authorised."
+    "interpretation": "Route A and exact BSEL P001-S006 prompt approved and committed; explicit fresh new-session invocation required. No mathematical S006 execution or child S007."
   },
   "parent_programme_session_executed": false,
   "parent_registration_ci": [
     {
-      "run_id": 38062697857,
-      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38062697857",
+      "run_id": 38064472259,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38064472259",
       "event": "push",
-      "head_sha": "595afbb69c9769bb4bec25afd36bc408048069f3",
+      "head_sha": "c1c9aa6a0d36e4dc4170713ada36453fa21757a5",
       "status": "completed",
       "conclusion": "success",
       "jobs": [
         {
-          "id": 114244020282,
+          "id": 114249211474,
           "name": "validate",
           "status": "completed",
           "conclusion": "success"
         }
       ],
-      "checkout_semantics": "Previously verified parent S004 registration main CI. Outgoing S005 PR/main CI is verified only after this commit."
+      "checkout_semantics": "Prior completed P001-S005 parent registration. This outgoing S006 approval-only parent status PR/main CI must be verified separately after commit."
     }
   ],
-  "previous_registration_receipt": "sessions/P001-S004/REGISTRATION.md",
-  "outgoing_parent_commit_evidence": "This committed receipt must NOT claim its own postcommit PR/main run; verify exact-head and merged-main hosted jobs separately."
+  "previous_registration_receipt": "sessions/P001-S005/REGISTRATION.md",
+  "outgoing_parent_commit_evidence": "No self-certified PR or merged-main run. Separate postcommit hosted job observation required.",
+  "registration_kind": "P001_S006_APPROVAL_ONLY",
+  "approved_next_child_handoff": {
+    "session": "P001-S006",
+    "objective": "BLOCK_COMPATIBILITY_FEASIBILITY_GATE",
+    "method": "SUNFLOWER_BLOCK_COMPATIBILITY",
+    "candidate": "BSEL_UNPROVED",
+    "child_main_commit": "76a4b8a3659adc8c10615f35717f1d2e6efbc1b4",
+    "prompt_path": "sessions/NEXT_SESSION.md",
+    "draft_path": "sessions/P001-S006/APPROVED_DRAFT.md",
+    "approval_manifest_path": "sessions/P001-S006/APPROVAL_MANIFEST.json",
+    "approved_draft_sha256": "d10a459752dc8f1b8477c2ea6cdd40f9e4a435c70b327248307811830e6305c8",
+    "executable_sha256": "209abc0175679b849de005056d156babe072b534b8108668993a71cc7e40f063",
+    "approved": true,
+    "executed": false,
+    "source_first_N1_performed": false,
+    "mathematical_proof_performed": false
+  }
 }

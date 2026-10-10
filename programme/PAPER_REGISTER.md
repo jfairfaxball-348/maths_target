@@ -21,3 +21,7 @@ Child S004 is an adversarial assistant self-audit and decision to retire its exa
 ## P001-S005 fifth-session decision gate
 
 Child S005 audited all substantive S001–S005 evidence, source gaps and failed auxiliary colour mechanisms. **No paper-ready contribution**: positive R3 extraction theorem 0; no independently scrutinised mathematical result, N2, Lean or manuscript. Publication remains IDEA, formalisation NOT_STARTED. A/B/C human route choice needed before any P001-S006 task beyond decision documentation. Parent S001 unchanged.
+
+## P001-S006 handoff approval only
+
+Owner approved a candidate new proof mechanism (BSEL blocks), not a theorem or paper. S006 has NOT begun; N1/prior art and conditional reduction must be tested within that future session. P001 formalisation NOT_STARTED, publication IDEA, zero novel proved extraction results. Parent programme S001 remains unexecuted.
