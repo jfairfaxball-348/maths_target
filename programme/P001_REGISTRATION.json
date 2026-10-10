@@ -308,7 +308,152 @@
     "executed": false
   },
   "parent_programme_session_executed": false,
-  "parent_registration_ci": [],
+  "parent_registration_ci": [
+    {
+      "run_id": 38056434665,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38056434665",
+      "event": "pull_request",
+      "head_sha": "a34f2eae38d28480a34f823559a773291dc3ef26",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 114225805392,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Run python3 scripts/validate.py",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Run python3 -m unittest discover -s tests -v",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Report checked commit",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 11
+            },
+            {
+              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": 38056432935,
+      "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/actions/runs/38056432935",
+      "event": "push",
+      "head_sha": "a34f2eae38d28480a34f823559a773291dc3ef26",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 114225800435,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 1
+            },
+            {
+              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 2
+            },
+            {
+              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 3
+            },
+            {
+              "name": "Run python3 scripts/validate.py",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 4
+            },
+            {
+              "name": "Run python3 -m unittest discover -s tests -v",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 5
+            },
+            {
+              "name": "Report checked commit",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 6
+            },
+            {
+              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 11
+            },
+            {
+              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 12
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success",
+              "number": 13
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "previous_registration_receipt": "sessions/P001-S000/REGISTRATION_RECEIPT.json",
   "outgoing_parent_commit_evidence": "Containing commit cannot name itself. The subsequent final-head/main checks are verified from GitHub and reported in the S001 response.",
   "parent_entry_ci": {
@@ -382,5 +527,11 @@
         ]
       }
     ]
+  },
+  "parent_registration_pr": {
+    "number": 3,
+    "url": "https://github.com/jfairfaxball-348/sunflower-structures-programme/pull/3",
+    "state_at_observation": "OPEN",
+    "head_at_first_validation": "a34f2eae38d28480a34f823559a773291dc3ef26"
   }
 }
