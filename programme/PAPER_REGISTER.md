@@ -34,3 +34,6 @@ Owner instructed continued mathematical work without technical A/B/C selection a
 
 ## P001-S008 registration
 No paper theorem: negative evidence against the single-global-hub proof reduction does not settle unrestricted BSEL, R3 or the full TIK target. The multi-component construction itself meets the desired internal witnesses, showing that hub-concentration assumptions are too rigid. No new novelty audit by owner instruction, external review, Lean, manuscript or publication. S009 two-heavy-vertex technical successor remains unexecuted. [Observed child CI](P001_REGISTRATION.json).
+
+## P001-S010 status-only registration
+No manuscript, extraction theorem or full TIK proof candidate. S010 cross-hub saturation negative and mandatory ten-session audit leave P001 INVESTIGATING, novelty UNCERTAIN, formalisation NOT_STARTED and publication IDEA. S011 unexecuted.
