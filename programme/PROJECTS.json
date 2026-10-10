@@ -10,17 +10,17 @@
       "url": "https://github.com/jfairfaxball-348/sunflower-internal-kernel-extraction",
       "status": "INVESTIGATING",
       "objective": "2026 JJSW Section 6 internal-kernel quantitative extraction question",
-      "verified_commit": "8a9f3a29944da6386c0fa813e42b7bdaa802ed62",
+      "verified_commit": "693a8b45dab8ebff773554c879756e797e9558e8",
       "verification_receipt": "programme/P001_REGISTRATION.json",
       "manifest_path": "project_manifest.json",
       "open_status": "STRONG_EVIDENCE_OPEN",
       "novelty_status": "NOVELTY_UNCERTAIN",
       "formal_status": "NOT_STARTED",
       "publication_status": "IDEA",
-      "next_obligation": "P001-S002 L_AVG: bounded feasibility of aggregate palette capacity; unproved sufficient route for R3",
+      "next_obligation": "P001-S003 L_AVG_HEAVY_LINK_CHARGING: bounded high-link palette capacity mechanism; not yet proved",
       "next_executed": false,
-      "last_child_session": "P001-S001",
-      "session_outcome": "MECHANISM_OBSTRUCTION_AND_REMAINING_LEMMA"
+      "last_child_session": "P001-S002",
+      "session_outcome": "RESTRICTED_SUNFLOWER_FREE_BOUND_GENERAL_L_AVG_UNRESOLVED"
     }
   ],
   "planned": []

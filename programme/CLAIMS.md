@@ -12,3 +12,5 @@ Correctness, novelty, formal status, and publication status are different dimens
 
 
 P001-S001 registration: the child records a mechanism counterexample and an unproved sufficient averaging obligation, not an extraction theorem. New theorem, formal verification and publication counts remain zero. Detailed argument and scope limits are in child research/R3_FEASIBILITY.md at the registered commit.
+
+P001-S002 status registration: the child proves only an elementary bound for aggregate palette capacity when F has **no** m-sunflower; arbitrary F retains unresolved L_AVG. No claimed R3 extraction theorem, algorithm, Lean proof, novelty or publication; count remains zero.

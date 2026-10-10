@@ -15,3 +15,5 @@ Detailed theorem locations, parameter comparisons, search limitations and eviden
 
 
 - N008, P001-S001: verified child focused N1 still leaves exact R3 STATUS_UNCERTAIN. Standard transversal construction rejects constant repair of arbitrary largest good palettes; no new extraction theorem or R3 refutation. L_AVG is an unproved sufficient condition, not a promoted original result. N2 and independent mathematical scrutiny remain pending for any achieved theorem.
+
+- N009, P001-S002: rechecked exact L_AVG expectation and equivalent partitioned optimal capacity in child S002_N1.md. No exact solution verified; source-search limitations explicit. Elementary sunflower-free subcase count 573599/663552 is restricted, not an independently scrutinised novel theorem; high-link extension remains a failed step. No N2 and no originality promotion. Exact R3 status STATUS_UNCERTAIN, full TIK baseline unchanged.
