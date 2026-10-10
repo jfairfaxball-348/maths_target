@@ -25,3 +25,6 @@ Child S005 audited all substantive S001–S005 evidence, source gaps and failed 
 ## P001-S006 handoff approval only
 
 Owner approved a candidate new proof mechanism (BSEL blocks), not a theorem or paper. S006 has NOT begun; N1/prior art and conditional reduction must be tested within that future session. P001 formalisation NOT_STARTED, publication IDEA, zero novel proved extraction results. Parent programme S001 remains unexecuted.
+
+## P001-S006 registered
+No paper-ready new theorem. One bounded BSEL study achieved only elementary restricted vertex-disjoint-support gamma=1 selection, universal BSEL unresolved. Source N1 bounded, novelty uncertain, no N2/independent review/Lean/manuscript. Remain INVESTIGATING / NOVELTY_UNCERTAIN / NOT_STARTED formalisation / IDEA publication. Child S007 awaits human route decision, parent S001 unexecuted.

@@ -28,3 +28,7 @@ Independently verify child PR #6, exact merged main 79fbbbc35fec42fdde0ada766f89
 ## Post-P001-S005 owner Route A approval — status registration only
 
 Independent evidence: child PR #7 (approved S006 prompt publication, not execution) merged on head 9b1a3fde0ffb9332633386031eb9ff75904fc8a7 to main 76a4b8a3659adc8c10615f35717f1d2e6efbc1b4. Exact-head CI 38065432905/job 114251989462 and merged-main CI 38065454455/job 114252051100 passed. Owner expressly selected A and separately approved the BSEL P001-S006 next-session prompt. This separate parent PR updates metadata only; no S006 mathematics and no parent S001. Preserve all prior negative routes and publication/formalisation/source limitations. The next actual action is a fresh user invocation of the complete child NEXT_SESSION.md.
+
+## Verified P001-S006 child research registration — STATUS ONLY
+- D029P: Independent live child evidence: PR #8 final head 24c44eef3fa24b29eb774a88b6a891bffdb85105 success hosted validate run 38067577376/job 114258248542, merged main 75dedd9cbf81f584cd7fafaa64eecff04fa34a45 success run 38067603855/job 114258324774. This confirms repository/CI, NOT independent mathematical scrutiny.
+- D030P: S006 bounded outcome C—RESTRICTED_BSEL_ONLY; elementary disjoint-support gamma=1, universal BSEL unproved/not refuted, conditional BSEL=>R3 only. No original theorem/N2/Lean/paper. Register S007 human gate, no implicit second attack or parent S001.
