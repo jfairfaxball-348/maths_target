@@ -15,3 +15,7 @@
 ## P001-S002 registered update
 
 Child main `693a8b45dab8ebff773554c879756e797e9558e8` passed main Actions. Restricted sunflower-free L_AVG expectation >=573599/663552 is an elementary case, not a general theorem or novelty-promoted paper. Full L_AVG/R3 unresolved; next child P001-S003 is heavy-link collision charging only. Parent S001 has not run.
+
+## P001-S003 verified update
+
+Child main ba1483bc46c5e51d60774d93cada49b248bcff4e, PR #4 merged, successful child main CI 38060326660. Earlier S001/S002 L_AVG route is now **invalidated by the S003 tripartite asymptotic counterexample** to the exact random palette expectation; independent mathematical scrutiny is pending. The counterexample is not against R3 or full TIK. No positive theorem or paper, S004 will solely audit/provisionally retire route. See registration receipt and child S003 analysis.
